@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/yujisatojr.github.io/static/css/main.7aaa56d9.chunk.css",
-    "main.js": "/yujisatojr.github.io/static/js/main.a96cd7c9.chunk.js",
-    "main.js.map": "/yujisatojr.github.io/static/js/main.a96cd7c9.chunk.js.map",
-    "runtime-main.js": "/yujisatojr.github.io/static/js/runtime-main.a8f7d915.js",
-    "runtime-main.js.map": "/yujisatojr.github.io/static/js/runtime-main.a8f7d915.js.map",
-    "static/js/2.27c4c1be.chunk.js": "/yujisatojr.github.io/static/js/2.27c4c1be.chunk.js",
-    "static/js/2.27c4c1be.chunk.js.map": "/yujisatojr.github.io/static/js/2.27c4c1be.chunk.js.map",
-    "static/js/3.7fe2ef53.chunk.js": "/yujisatojr.github.io/static/js/3.7fe2ef53.chunk.js",
-    "static/js/3.7fe2ef53.chunk.js.map": "/yujisatojr.github.io/static/js/3.7fe2ef53.chunk.js.map",
-    "index.html": "/yujisatojr.github.io/index.html",
-    "static/css/main.7aaa56d9.chunk.css.map": "/yujisatojr.github.io/static/css/main.7aaa56d9.chunk.css.map",
-    "static/js/2.27c4c1be.chunk.js.LICENSE.txt": "/yujisatojr.github.io/static/js/2.27c4c1be.chunk.js.LICENSE.txt",
-    "static/media/github.d1bb13ce.svg": "/yujisatojr.github.io/static/media/github.d1bb13ce.svg",
-    "static/media/mockup.2a987908.png": "/yujisatojr.github.io/static/media/mockup.2a987908.png",
-    "static/media/mypic.8cf0d96d.png": "/yujisatojr.github.io/static/media/mypic.8cf0d96d.png",
-    "static/media/App.css": "/yujisatojr.github.io/static/media/pexels-jakub-novacek-924824.406d0970.jpg"
+    "main.css": "/yujisatojr.com/static/css/main.c7a9e5e2.chunk.css",
+    "main.js": "/yujisatojr.com/static/js/main.a96cd7c9.chunk.js",
+    "main.js.map": "/yujisatojr.com/static/js/main.a96cd7c9.chunk.js.map",
+    "runtime-main.js": "/yujisatojr.com/static/js/runtime-main.98f75c5c.js",
+    "runtime-main.js.map": "/yujisatojr.com/static/js/runtime-main.98f75c5c.js.map",
+    "static/js/2.27c4c1be.chunk.js": "/yujisatojr.com/static/js/2.27c4c1be.chunk.js",
+    "static/js/2.27c4c1be.chunk.js.map": "/yujisatojr.com/static/js/2.27c4c1be.chunk.js.map",
+    "static/js/3.7fe2ef53.chunk.js": "/yujisatojr.com/static/js/3.7fe2ef53.chunk.js",
+    "static/js/3.7fe2ef53.chunk.js.map": "/yujisatojr.com/static/js/3.7fe2ef53.chunk.js.map",
+    "index.html": "/yujisatojr.com/index.html",
+    "static/css/main.c7a9e5e2.chunk.css.map": "/yujisatojr.com/static/css/main.c7a9e5e2.chunk.css.map",
+    "static/js/2.27c4c1be.chunk.js.LICENSE.txt": "/yujisatojr.com/static/js/2.27c4c1be.chunk.js.LICENSE.txt",
+    "static/media/github.d1bb13ce.svg": "/yujisatojr.com/static/media/github.d1bb13ce.svg",
+    "static/media/mockup.2a987908.png": "/yujisatojr.com/static/media/mockup.2a987908.png",
+    "static/media/mypic.8cf0d96d.png": "/yujisatojr.com/static/media/mypic.8cf0d96d.png",
+    "static/media/App.css": "/yujisatojr.com/static/media/pexels-jakub-novacek-924824.406d0970.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8f7d915.js",
+    "static/js/runtime-main.98f75c5c.js",
     "static/js/2.27c4c1be.chunk.js",
-    "static/css/main.7aaa56d9.chunk.css",
+    "static/css/main.c7a9e5e2.chunk.css",
     "static/js/main.a96cd7c9.chunk.js"
   ]
 }
