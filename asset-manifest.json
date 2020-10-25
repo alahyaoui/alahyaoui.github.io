@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ab8921d.chunk.css",
-    "main.js": "/static/js/main.f0e83f59.chunk.js",
-    "main.js.map": "/static/js/main.f0e83f59.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.066546cc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.066546cc.js.map",
-    "static/js/2.e2726157.chunk.js": "/static/js/2.e2726157.chunk.js",
-    "static/js/2.e2726157.chunk.js.map": "/static/js/2.e2726157.chunk.js.map",
-    "static/js/3.d2f95c5a.chunk.js": "/static/js/3.d2f95c5a.chunk.js",
-    "static/js/3.d2f95c5a.chunk.js.map": "/static/js/3.d2f95c5a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.3ab8921d.chunk.css.map": "/static/css/main.3ab8921d.chunk.css.map",
-    "static/js/2.e2726157.chunk.js.LICENSE.txt": "/static/js/2.e2726157.chunk.js.LICENSE.txt",
-    "static/media/github.d1bb13ce.svg": "/static/media/github.d1bb13ce.svg",
-    "static/media/mockup.2a987908.png": "/static/media/mockup.2a987908.png",
-    "static/media/mypic.8cf0d96d.png": "/static/media/mypic.8cf0d96d.png",
-    "static/media/App.css": "/static/media/pexels-jakub-novacek-924824.406d0970.jpg"
+    "main.css": "/yujisatojr.github.io/static/css/main.7aaa56d9.chunk.css",
+    "main.js": "/yujisatojr.github.io/static/js/main.a96cd7c9.chunk.js",
+    "main.js.map": "/yujisatojr.github.io/static/js/main.a96cd7c9.chunk.js.map",
+    "runtime-main.js": "/yujisatojr.github.io/static/js/runtime-main.a8f7d915.js",
+    "runtime-main.js.map": "/yujisatojr.github.io/static/js/runtime-main.a8f7d915.js.map",
+    "static/js/2.27c4c1be.chunk.js": "/yujisatojr.github.io/static/js/2.27c4c1be.chunk.js",
+    "static/js/2.27c4c1be.chunk.js.map": "/yujisatojr.github.io/static/js/2.27c4c1be.chunk.js.map",
+    "static/js/3.7fe2ef53.chunk.js": "/yujisatojr.github.io/static/js/3.7fe2ef53.chunk.js",
+    "static/js/3.7fe2ef53.chunk.js.map": "/yujisatojr.github.io/static/js/3.7fe2ef53.chunk.js.map",
+    "index.html": "/yujisatojr.github.io/index.html",
+    "static/css/main.7aaa56d9.chunk.css.map": "/yujisatojr.github.io/static/css/main.7aaa56d9.chunk.css.map",
+    "static/js/2.27c4c1be.chunk.js.LICENSE.txt": "/yujisatojr.github.io/static/js/2.27c4c1be.chunk.js.LICENSE.txt",
+    "static/media/github.d1bb13ce.svg": "/yujisatojr.github.io/static/media/github.d1bb13ce.svg",
+    "static/media/mockup.2a987908.png": "/yujisatojr.github.io/static/media/mockup.2a987908.png",
+    "static/media/mypic.8cf0d96d.png": "/yujisatojr.github.io/static/media/mypic.8cf0d96d.png",
+    "static/media/App.css": "/yujisatojr.github.io/static/media/pexels-jakub-novacek-924824.406d0970.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.066546cc.js",
-    "static/js/2.e2726157.chunk.js",
-    "static/css/main.3ab8921d.chunk.css",
-    "static/js/main.f0e83f59.chunk.js"
+    "static/js/runtime-main.a8f7d915.js",
+    "static/js/2.27c4c1be.chunk.js",
+    "static/css/main.7aaa56d9.chunk.css",
+    "static/js/main.a96cd7c9.chunk.js"
   ]
 }
