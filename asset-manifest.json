@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ab8921d.chunk.css",
+    "main.js": "/static/js/main.f0e83f59.chunk.js",
+    "main.js.map": "/static/js/main.f0e83f59.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.066546cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.066546cc.js.map",
+    "static/js/2.e2726157.chunk.js": "/static/js/2.e2726157.chunk.js",
+    "static/js/2.e2726157.chunk.js.map": "/static/js/2.e2726157.chunk.js.map",
+    "static/js/3.d2f95c5a.chunk.js": "/static/js/3.d2f95c5a.chunk.js",
+    "static/js/3.d2f95c5a.chunk.js.map": "/static/js/3.d2f95c5a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3ab8921d.chunk.css.map": "/static/css/main.3ab8921d.chunk.css.map",
+    "static/js/2.e2726157.chunk.js.LICENSE.txt": "/static/js/2.e2726157.chunk.js.LICENSE.txt",
+    "static/media/github.d1bb13ce.svg": "/static/media/github.d1bb13ce.svg",
+    "static/media/mockup.2a987908.png": "/static/media/mockup.2a987908.png",
+    "static/media/mypic.8cf0d96d.png": "/static/media/mypic.8cf0d96d.png",
+    "static/media/App.css": "/static/media/pexels-jakub-novacek-924824.406d0970.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.066546cc.js",
+    "static/js/2.e2726157.chunk.js",
+    "static/css/main.3ab8921d.chunk.css",
+    "static/js/main.f0e83f59.chunk.js"
+  ]
+}
