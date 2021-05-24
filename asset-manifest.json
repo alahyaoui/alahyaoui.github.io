@@ -1,30 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cab653d.chunk.css",
-    "main.js": "/static/js/main.65bc24e1.chunk.js",
-    "main.js.map": "/static/js/main.65bc24e1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c1342b1f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c1342b1f.js.map",
-    "static/js/2.091b2690.chunk.js": "/static/js/2.091b2690.chunk.js",
-    "static/js/2.091b2690.chunk.js.map": "/static/js/2.091b2690.chunk.js.map",
-    "static/js/3.991a4e2c.chunk.js": "/static/js/3.991a4e2c.chunk.js",
-    "static/js/3.991a4e2c.chunk.js.map": "/static/js/3.991a4e2c.chunk.js.map",
+    "main.css": "/static/css/main.e6511620.chunk.css",
+    "main.js": "/static/js/main.b64f9154.chunk.js",
+    "main.js.map": "/static/js/main.b64f9154.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0c5de20.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0c5de20.js.map",
+    "static/js/2.c86b2bdc.chunk.js": "/static/js/2.c86b2bdc.chunk.js",
+    "static/js/2.c86b2bdc.chunk.js.map": "/static/js/2.c86b2bdc.chunk.js.map",
+    "static/js/3.cd519048.chunk.js": "/static/js/3.cd519048.chunk.js",
+    "static/js/3.cd519048.chunk.js.map": "/static/js/3.cd519048.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8cab653d.chunk.css.map": "/static/css/main.8cab653d.chunk.css.map",
-    "static/js/2.091b2690.chunk.js.LICENSE.txt": "/static/js/2.091b2690.chunk.js.LICENSE.txt",
+    "static/css/main.e6511620.chunk.css.map": "/static/css/main.e6511620.chunk.css.map",
+    "static/js/2.c86b2bdc.chunk.js.LICENSE.txt": "/static/js/2.c86b2bdc.chunk.js.LICENSE.txt",
     "static/media/github.d1bb13ce.svg": "/static/media/github.d1bb13ce.svg",
-    "static/media/mockup.2a987908.png": "/static/media/mockup.2a987908.png",
-    "static/media/mockup2.eda0abf9.png": "/static/media/mockup2.eda0abf9.png",
-    "static/media/mockup3.44b95557.png": "/static/media/mockup3.44b95557.png",
-    "static/media/mockup4.5566450f.png": "/static/media/mockup4.5566450f.png",
-    "static/media/mypic.8cf0d96d.png": "/static/media/mypic.8cf0d96d.png",
-    "static/media/App.css": "/static/media/pexels-jakub-novacek-924824.406d0970.jpg",
-    "static/media/real-estate-app-mockup.11572062.png": "/static/media/real-estate-app-mockup.11572062.png"
+    "static/media/App.css": "/static/media/pexels-cameron-casey-1722183.d9071264.jpg",
+    "static/media/mockup.576d6912.jpg": "/static/media/mockup.576d6912.jpg",
+    "static/media/pexels-jakub-novacek-924824.406d0970.jpg": "/static/media/pexels-jakub-novacek-924824.406d0970.jpg",
+    "static/media/profile.14277684.jpg": "/static/media/profile.14277684.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1342b1f.js",
-    "static/js/2.091b2690.chunk.js",
-    "static/css/main.8cab653d.chunk.css",
-    "static/js/main.65bc24e1.chunk.js"
+    "static/js/runtime-main.d0c5de20.js",
+    "static/js/2.c86b2bdc.chunk.js",
+    "static/css/main.e6511620.chunk.css",
+    "static/js/main.b64f9154.chunk.js"
   ]
 }
