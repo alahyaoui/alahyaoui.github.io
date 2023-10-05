@@ -1,5 +1,5 @@
 # Ayoub's Portfolio
-My portfolio website powered by React.js
+My portfolio website powered by React.js.
 
 ## Installation
 
