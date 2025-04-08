@@ -20,7 +20,7 @@ function About() {
         <div>
           <h1>About Me</h1>
           <p className="about_text">
-            Hello, I'm Ayoub Lahyaoui a {getAge(MY_BIRTH_DATE)}-year-old Belgian computer science student currently completing an end-of-study internship at TomTom in Mobile Development.<br />
+            Hello, I'm Ayoub Lahyaoui a {getAge(MY_BIRTH_DATE)}-year-old Belgian software developer.<br />
             I enjoy socializing, meeting new people, and learning about different cultures, which leads me to enjoy traveling.<br />
             I have been fortunate to visit a few countries and hope to visit more in the future.<br />
             As a computer and technology enthusiast, I've developed a wide range of skills in a variety of computer-related fields, making me a highly adaptable individual. <br />
