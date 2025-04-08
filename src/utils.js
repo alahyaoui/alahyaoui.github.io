@@ -1,10 +1,8 @@
-const myBirthDate = "2001-05-21"
-
-export const getAge = () => {
-  var today = new Date();
-  var birthDate = new Date(myBirthDate);
-  var age = today.getFullYear() - birthDate.getFullYear();
-  var m = today.getMonth() - birthDate.getMonth();
+export const getAge = (birthDate) => {
+  let today = new Date();
+  let birthDate = new Date(birthDate);
+  let age = today.getFullYear() - birthDate.getFullYear();
+  let m = today.getMonth() - birthDate.getMonth();
   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
       age--;
   }
