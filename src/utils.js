@@ -1,9 +1,9 @@
-export const getAge = (birthDate) => {
-  let today = new Date();
-  let birthDate = new Date(birthDate);
-  let age = today.getFullYear() - birthDate.getFullYear();
-  let m = today.getMonth() - birthDate.getMonth();
-  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+export function getAge(date) {
+  let todayDate = new Date();
+  let birthDate = new Date(date);
+  let age = todayDate.getFullYear() - birthDate.getFullYear();
+  let m = todayDate.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && todayDate.getDate() < birthDate.getDate())) {
       age--;
   }
   return age;
