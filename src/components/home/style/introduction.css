@@ -1,232 +1,10 @@
-body {
-  margin: 0px;
-}
-
-h1 {
-  font-size: 3em;
-}
-
-p {
-  font-size: 1.1em;
-}
-
-a {
-  color: #2f4454;
-  text-decoration: none;
-}
-
-button {
-  border: 1px solid black !important;
-  padding: 5px 25px !important;
-  margin-top: 15px !important;
-  margin-bottom: 15px !important;
-}
-
-.flex-chips {
-  line-height: 2.5;
-  margin: 0.5;
-}
-
-.flex-chips .MuiChip-root {
-  margin-right: 0.5em;
-}
-
-.container {
-  padding-top: 5%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-section {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 5%;
-}
-
-.about-section .content {
-  text-align: left;
-  width: 50%;
-}
-
-.about-section .image-wrapper {
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.about-section .image-wrapper img {
-  width: 80%;
-  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
-
-@media screen {
-  @media (max-width: 567px) {
-    #myProgress {
-      position: fixed;
-      left: 40%;
-      top: 50%;
-      border-radius: 25px 25px;
-      background-color: #ddd;
-    }
-
-    .nav-left{
-      padding-top: 20px;
-      float:left;
-    }
-
-    .nav-left img {
-      height: 35px
-    }
-
-    .nav-right {
-      float:right;
-    }
-
-    .nav-right li {
-      padding: 10px 15px;
-      list-style:none;
-      font-size:13px;
-      color:white;
-      width: 10%;
-    }
-
-    .nav-right ul {
-      list-style-type: none;
-      margin: 0px;
-      padding: 0px;
-      font-family: Verdana, sans-serif;
-    }
-
-    body {
-      width: 100%;
-    }
-
-    .introduction {
-      font-size: 18px;
-      letter-spacing: 0.3em;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .introduction img {
-      width: 60%;
-    }
-
-    .about {
-      padding-left: 5%;
-      padding-right: 5%;
-      font-size: 12px;
-    }
-
-    .skills {
-      font-size: 12px;
-    }
-
-    .experience {
-      font-size: 12px;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
-
-    .content-1 li {
-      width: 7%;
-    }
-  
-    .content-2 li {
-      width: 15%;
-    }
-    
-  }
-}
-
-@media (max-width:700px) {
-  .about-section h1 {
-    text-align: left;
-  }
-
-  .about-section p {
-    text-align: left;
-  }
-
-  .container {
-    display: initial;
-  }
-
-  .about-section {
-    display: initial;
-  }
-
-  .about-section .content {
-    text-align: center;
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-  }
-
-  .about-section .image-wrapper {
-    width: 100%;
-  }
-  
-  .introduction {
-    background-attachment: initial;
-    padding-top: 35%;
-    padding-bottom: 35%;
-  }
-}
-
-@media (max-width:400px) {
-  .introduction {
-    padding-top: 40%;
-    padding-bottom: 40%;
-  }
-}
-
-@media (max-width:321px) {
-  .introduction {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
+/* Introduction styles */
 .introduction {
   padding: 5% 0;
 }
 
 .introduction__container {
   padding: 0 10%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.introduction__content {
-  flex: 1;
 }
 
 .introduction__title {
@@ -235,11 +13,42 @@ button {
   color: #333;
 }
 
+.introduction__content {
+  display: grid;
+  grid-template-areas: "image bio"
+                       "image hobbies";
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  column-gap: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.introduction__bio {
+  grid-area: bio;
+}
+
+.introduction__subtitle {
+  font-size: 1.5rem;
+  color: #333;
+}
+
 .introduction__text {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #666;
   margin-bottom: 1rem;
+}
+
+.introduction__text--mobile {
+  display: none;
+}
+
+.introduction__hobbies {
+  grid-area: hobbies;
 }
 
 .introduction__chips {
@@ -258,38 +67,90 @@ button {
 }
 
 .introduction__image-wrapper {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  align-self: center;
+  grid-area: image;
 }
 
 .introduction__image {
   max-width: 100%;
-  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px) {
-  .introduction__container {
-    flex-direction: column-reverse;
+/* Media queries */
+@media (max-width: 1366px) {
+  .introduction__content {
+    display: grid;
+    grid-template-areas: "image bio hobbies";
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .introduction__text--mobile {
+    display: block;
+  }
+
+  .introduction__text--desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .introduction__content {
+    display: grid;
+    grid-template-areas: "bio image"
+                         "bio image"
+                         "hobbies hobbies";
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .introduction__image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 768px) {  
+  .introduction__title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .introduction__content {
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 
-  .introduction__title {
-    font-size: 2rem;
+  .introduction__bio {
+    order: 2;
+  }
+
+  .introduction__subtitle {
+    text-align: start;
+    font-size: 1.5rem;
   }
 
   .introduction__text {
     font-size: 1rem;
+    text-align: justify;
+  }
+
+  .introduction__hobbies {
+    order: 3;
   }
 
   .introduction__chips {
-    justify-content: center;
+    justify-content:flex-start
+  }
+
+  .introduction__image-wrapper {
+    order: 1;
   }
 
   .introduction__image {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
