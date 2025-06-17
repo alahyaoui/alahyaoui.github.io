@@ -7,7 +7,7 @@ import { SiSwift, SiKotlin, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, S
 import { GrMysql, } from "react-icons/gr";
 import { CgShapeCircle } from "react-icons/cg";
 import FadeInSection from '../fade/FadeInSections'
-import Chip from '@material-ui/core/Chip';
+import Chip from '@mui/material/Chip';
 import { faAppStore, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faBuilding } from '@fortawesome/free-regular-svg-icons';
 

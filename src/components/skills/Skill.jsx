@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/skill.css';
 
-import Chip from '@material-ui/core/Chip';
+import Chip from '@mui/material/Chip';
 
 import { FaJava, FaJsSquare, FaHtml5, FaCss3, FaPhp, FaDatabase, FaPython, FaReact, FaBootstrap, FaLaravel, FaGitAlt } from "react-icons/fa";
 import { SiKotlin, SiSolidity, SiCplusplus, SiSpringboot, SiDjango, SiPostgresql, SiSqlite, SiMongodb, SiHeroku, SiGnubash, SiPostman, SiVirtualbox, SiQt, SiAndroidstudio, SiCisco, SiSwift } from "react-icons/si";

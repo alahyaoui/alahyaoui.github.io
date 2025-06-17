@@ -1,8 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import './index.css';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import reportWebVitals from './reportWebVitals';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
@@ -12,7 +13,10 @@ import {
   Skill,
 } from "./components";
 
-ReactDOM.render(
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(
   <Router>
     <Navigation />
     <Routes>
@@ -22,9 +26,7 @@ ReactDOM.render(
       <Route path="/contact" element={<ContactForm />} />
     </Routes>
     <Footer />
-  </Router>,
-
-  document.getElementById("root")
+  </Router>
 );
 
 // If you want your app to work offline and load faster, you can change

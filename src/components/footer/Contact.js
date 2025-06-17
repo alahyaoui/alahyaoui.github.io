@@ -2,10 +2,8 @@ import React from 'react';
 import './style/contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-toast.configure();
 
 function Contact() {
   function copyToClipboard(e) {
@@ -18,6 +16,18 @@ function Contact() {
 
   return (
     <div className="getintouch" id="contact">
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <div className="section">
         <h2>... got an idea?</h2>
         <h1>Let's create awesome things together!</h1>

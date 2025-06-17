@@ -2,7 +2,7 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { Button } from '@material-ui/core';
+import { Button } from '@mui/material';
 import "./style/contact.css"
 
 function ContactForm() {
