@@ -212,3 +212,84 @@ button {
     padding-bottom: 100px;
   }
 }
+
+.introduction {
+  padding: 5% 0;
+}
+
+.introduction__container {
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.introduction__content {
+  flex: 1;
+}
+
+.introduction__title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.introduction__text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.introduction__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.introduction__chip {
+  transition: transform 0.2s ease;
+}
+
+.introduction__chip:hover {
+  transform: scale(1.05);
+}
+
+.introduction__image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .introduction__container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .introduction__title {
+    font-size: 2rem;
+  }
+
+  .introduction__text {
+    font-size: 1rem;
+  }
+
+  .introduction__chips {
+    justify-content: center;
+  }
+
+  .introduction__image {
+    max-width: 80%;
+  }
+}

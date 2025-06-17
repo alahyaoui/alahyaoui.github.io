@@ -2,29 +2,29 @@ import React from 'react';
 import { useState, useRef, useEffect } from 'react';
 import "./style/fadeInSections.css"
 
-function FadeInSection(props) {
-    const [isVisible, setVisible] = useState(false);
-    const domRef = useRef();
+function FadeInSection({ children }) {
+    const [isVisible, setIsVisible] = useState(false);
+    const sectionRef = useRef();
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    setVisible(entry.isIntersecting);
+                    setIsVisible(entry.isIntersecting);
                 }
             });
         });
-        const ref = domRef.current
-        observer.observe(ref);
-        return () => observer.unobserve(ref);
+        const currentRef = sectionRef.current
+        observer.observe(currentRef);
+        return () => observer.unobserve(currentRef);
     }, []);
     return (
         <div
-            className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
-            ref={domRef}
+            className={`fade-in-section ${isVisible ? 'fade-in-section--visible' : ''}`}
+            ref={sectionRef}
         >
-            {props.children}
+            {children}
         </div>
     );
 }
 
-  export default FadeInSection;
+export default FadeInSection;

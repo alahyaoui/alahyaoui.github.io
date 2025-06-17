@@ -1,25 +1,24 @@
 import React from "react";
 import "./style/about.css"
-import about_page from './assets/img/about_page.jpeg';
-import {getAge} from '../../utils'
+import aboutImage from './assets/img/about_page.jpeg';
+import { getAge } from '../../utils'
 
 const MY_BIRTH_DATE = "2001-05-21"
 
 function About() {
   return (
-    <div className="about">
-      <div class="items_wrapper">
-        <div>
+    <section className="about" id="about">
+      <div className="about__container">
+        <div className="about__image-wrapper">
           <img
-            className="image-wrapper"
-            src={about_page}
-            alt="about_picture"
-            width="100%"
+            className="about__image"
+            src={aboutImage}
+            alt="Ayoub Lahyaoui's profile picture"
           />
         </div>
-        <div>
-          <h1>About Me</h1>
-          <p className="about_text">
+        <div className="about__content">
+          <h2 className="about__title">About Me</h2>
+          <p className="about__text">
             Hello, I'm Ayoub Lahyaoui a {getAge(MY_BIRTH_DATE)}-year-old Belgian software developer.<br />
             I enjoy socializing, meeting new people, and learning about different cultures, which leads me to enjoy traveling.<br />
             I have been fortunate to visit a few countries and hope to visit more in the future.<br />
@@ -28,7 +27,7 @@ function About() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

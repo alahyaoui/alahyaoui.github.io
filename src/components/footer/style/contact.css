@@ -1,33 +1,58 @@
-.section {
-  padding-left: 10%;
-  padding-right: 10%;
+.contact {
+  padding: 5% 0;
+}
+
+.contact__container {
+  padding: 0 10%;
   text-align: left;
 }
 
-.line {
+.contact__subtitle {
+  margin: 0;
+}
+
+.contact__title {
+  margin: 0.5em 0;
+}
+
+.contact__divider {
   height: 5px;
   background-color: #333333;
   width: 30%;
   margin-bottom: 30px;
 }
-  
-.info li {
-  list-style: none;
+
+.contact__text {
+  margin: 1em 0;
 }
-  
-.info ul {
+
+.contact__social {
+  margin-top: 2em;
+}
+
+.contact__social-list {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: flex;
 }
-  
-.info ul li {
+
+.contact__social-item {
   padding: 10px;
 }
 
-@media (max-width:700px) {
-  .getintouch {
+.contact__social-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact__social-link:hover {
+  color: rgba(0, 0, 0, 0.349);
+}
+
+@media (max-width: 700px) {
+  .contact {
     padding-bottom: 100px;
   }
 }

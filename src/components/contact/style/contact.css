@@ -1,32 +1,89 @@
-.contact_form {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.contact {
+  padding: 5% 0;
 }
 
-.contact_form .items_wrapper .response {
+.contact__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+.contact__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
   text-align: center;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+.contact__title--success {
+  color: #4CAF50;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact__label {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.contact__input,
+.contact__textarea {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
   border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.contact__textarea {
+  min-height: 150px;
   resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.contact__submit {
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  text-transform: none;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+@media (max-width: 768px) {
+  .contact__container {
+    padding: 0 5%;
+  }
+
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .contact__label {
+    font-size: 1rem;
+  }
+
+  .contact__input,
+  .contact__textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact__submit {
+    width: 100%;
+  }
 }

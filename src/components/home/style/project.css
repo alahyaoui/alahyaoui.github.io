@@ -1,68 +1,85 @@
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: left;
+.projects {
+  padding: 5% 0;
 }
 
-.projects-container .projects-grid {
+.projects__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.projects__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 50px;
-  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0 10%;
 }
 
-.projects-container .projects-grid .project {
-  text-align: left;
+.projects__item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
-.project h2 {
-  color: black;
+.projects__item:hover {
+  transform: translateY(-5px);
 }
 
-.project h2:hover {
-  text-decoration: underline;
+.projects__link {
+  text-decoration: none;
+  color: inherit;
 }
 
-.project-tools p {
-  margin: 0.3em;
+.projects__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
-.zoom {
-  border-radius: 5px;
-  transition: transform .2s;
-  margin: 0 auto;
-}
-
-.zoom:hover {
+.projects__item:hover .projects__image {
   transform: scale(1.05);
 }
 
-#project a {
-  color: #ac3b61;
-  font-weight: bold;
+.projects__subtitle {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: #333;
 }
 
-#project a:hover {
-  color: #b1667f;
+.projects__description {
+  margin: 1rem;
+  color: #666;
+  line-height: 1.6;
 }
 
-@media screen {
-  @media (max-width: 700px) {
-    .projects-container {
-      display: block;
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+.projects__tools {
+  margin: 1rem;
+}
 
-    .projects-container .projects-grid {
-      display: block;
-    }
+.projects__tech-stack {
+  margin: 0.5rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
 
-    .projects-container .projects-grid .project {
-      padding-bottom: 5%;
-    }
+@media (max-width: 768px) {
+  .projects__grid {
+    padding: 0 5%;
+  }
+
+  .projects__title {
+    font-size: 2rem;
+  }
+
+  .projects__subtitle {
+    font-size: 1.3rem;
+  }
+
+  .projects__grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,7 +1,16 @@
-.nav-bar ul {
+.navigation {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.navigation__container {
+  width: 100%;
+}
+
+.navigation__list {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   height: inherit;
@@ -9,23 +18,30 @@
   justify-content: center;
 }
 
-.nav-bar li {
+.navigation__item {
   padding: 12px 20px;
   list-style: none;
   font-size: 100%;
   font-weight: 400;
 }
 
-.nav-bar {
-  width: 100%;
-  margin-top: 30px;
-}
-
-.nav-link {
+.navigation__link {
   color: black;
   letter-spacing: 0.4vw;
 }
 
-.nav-link:hover {
+.navigation__link:hover {
   color: rgba(0, 0, 0, 0.349);
+}
+
+.navigation__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }

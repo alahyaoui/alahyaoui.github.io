@@ -4,35 +4,33 @@ import "./style/navigation.css"
 
 function Navigation() {
   return (
-    <div className="navigation">
-      <nav>
-        <div className="nav-bar">
-          <ul>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/">
-                Home
-                <span className="sr-only">(current)</span>
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/about">
-                About
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/skills">
-                Skills
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
-                Contact
-              </NavLink>
-            </li>
-          </ul>
-        </div>
+    <header className="navigation">
+      <nav className="navigation__container">
+        <ul className="navigation__list">
+          <li className="navigation__item">
+            <NavLink className="navigation__link" to="/">
+              Home
+              <span className="navigation__sr-only">(current)</span>
+            </NavLink>
+          </li>
+          <li className="navigation__item">
+            <NavLink className="navigation__link" to="/about">
+              About
+            </NavLink>
+          </li>
+          <li className="navigation__item">
+            <NavLink className="navigation__link" to="/skills">
+              Skills
+            </NavLink>
+          </li>
+          <li className="navigation__item">
+            <NavLink className="navigation__link" to="/contact">
+              Contact
+            </NavLink>
+          </li>
+        </ul>
       </nav>
-    </div>
+    </header>
   );
 }
 

@@ -1,42 +1,86 @@
-.specialties-container {
-  width: 80vw;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 5%;
-  text-align: left;
+.specialties {
+  padding: 5% 0;
 }
 
-.specialties-container .specialties-grid {
+.specialties__container {
+  padding: 0 10%;
+}
+
+.specialties__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.specialties__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 50px;
-  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
 }
 
-.specialties-container .specialties-grid .specialty {
-  align-items: center;
-  text-align: left;
+.specialties__item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-@media screen {
-  @media (max-width: 567px) {
-    .specialties-container h1 {
-      padding-left: 5%;
-      padding-right: 5%;
-    }
+.specialties__item:hover {
+  transform: translateY(-5px);
+}
 
-    .specialties-container {
-      display: initial;
-    }
+.specialties__icon {
+  color: #333;
+  margin-bottom: 1rem;
+}
 
-    .specialties-container .specialties-grid {
-      display: initial;
-    }
-    
-    .specialties-container .specialties-grid .specialty {
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-bottom: 5%;
-    }
+.specialties__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.specialties__tech-stack {
+  margin-top: 1rem;
+}
+
+.specialties__tech-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.specialties__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.specialties__chip {
+  transition: transform 0.2s ease;
+}
+
+.specialties__chip:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .specialties__container {
+    padding: 0 5%;
+  }
+
+  .specialties__title {
+    font-size: 2rem;
+  }
+
+  .specialties__subtitle {
+    font-size: 1.3rem;
+  }
+
+  .specialties__grid {
+    grid-template-columns: 1fr;
   }
 }
