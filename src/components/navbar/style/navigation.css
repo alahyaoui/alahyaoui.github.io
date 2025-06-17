@@ -14,7 +14,6 @@
   list-style: none;
   font-size: 100%;
   font-weight: 400;
-  color: white;
 }
 
 .nav-bar {
@@ -22,11 +21,11 @@
   margin-top: 30px;
 }
 
-.nav-bar a {
+.nav-link {
   color: black;
   letter-spacing: 0.4vw;
 }
 
-.nav-bar a:hover {
+.nav-link:hover {
   color: rgba(0, 0, 0, 0.349);
 }

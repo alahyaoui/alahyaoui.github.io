@@ -16,13 +16,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-  display: grid;
-  font-family: Verdana, sans-serif;
-  text-align: center;
-  font-size: 14px;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

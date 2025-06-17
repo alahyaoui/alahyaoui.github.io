@@ -31,17 +31,6 @@ button {
   margin-right: 0.5em;
 }
 
-.introduction {
-  color: black;
-  padding-top: 15%;
-  padding-bottom: 15%;
-  font-size: 30px;
-  letter-spacing: 0.3em;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: left;
-}
-
 .container {
   padding-top: 5%;
   width: 100%;
@@ -69,6 +58,11 @@ button {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.about-section .image-wrapper img {
+  width: 80%;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .animate-bottom {
@@ -178,8 +172,8 @@ button {
     text-align: left;
   }
 
-   .container {
-      display: initial;
+  .container {
+    display: initial;
   }
 
   .about-section {
@@ -203,11 +197,6 @@ button {
     padding-top: 35%;
     padding-bottom: 35%;
   }
-}
-
-.about-section .image-wrapper img{
-  width: 80%;
-  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 @media (max-width:400px) {
