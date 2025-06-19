@@ -1,15 +1,21 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import './style/footer.css';
-import {Contact} from ".";
+import { Socials } from ".";
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
-    <footer>
-      <div className="contact">
-        <Contact />
+    <footer className="footer__container">
+      <div className="footer__socials">
+        <Socials />
       </div>
-      <p>Portfolio made with React.js</p>
-      <p>developed by <a href="https://github.com/alahyaoui" target="_blank" rel="noreferrer">Lahyaoui Ayoub</a> forked from <a href="https://github.com/yujisatojr/portfolio" target="_blank" rel="noreferrer">Yuji Sato</a> with his consent</p>
+      <div className="footer_credits">
+        <p>
+          {t('footer.developedBy')} <a href="https://github.com/alahyaoui" target="_blank" rel="noreferrer">Lahyaoui Ayoub</a>
+        </p>
+      </div>
     </footer>
   );
 }

@@ -1,0 +1,130 @@
+{
+  "introduction": {
+    "title": "Hi, I'm Ayoub",
+    "subtitle": "Full Stack Developer",
+    "description": "I'm a passionate Full Stack Developer with expertise in building modern web applications. I love creating efficient, scalable, and user-friendly solutions.",
+    "hobbies": "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities."
+  },
+  "specialties": {
+    "title": "My Specialties",
+    "fullStack": {
+      "title": "Full Stack Development",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "programming": "Programming Languages"
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "native": "Native Development",
+      "crossPlatform": "Cross-Platform"
+    },
+    "devops": {
+      "title": "DevOps",
+      "cloud": "Cloud & Infrastructure",
+      "cicd": "Version Control & CI/CD",
+      "tools": "Tools"
+    },
+    "languages": {
+      "title": "Languages",
+      "french": "French (Mother Tongue)",
+      "english": "English (Full Professional)",
+      "dutch": "Dutch (Limited Professional)"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "devops": "DevOps",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "tomtomAmigo": {
+      "title": "TomTom AmiGO",
+      "description": "TomTom AmiGO is a free and adless GPS navigation mobile app available on Android and iOS also supporting Android Auto and Carplay, it offers a lot of features such as trusted maps, real-time traffic updates, speed camera alerts, etc…",
+      "techStack": "Used: React Native, Redux Saga, Jest, Java, Kotlin, Swift"
+    },
+    "escooterFinder": {
+      "title": "E-Scooter Finder",
+      "description": "Android application, which finds you nearby e-scooters from various electric scooter sharing companies.",
+      "frontend": "Frontend: Kotlin, Google Maps SDK, Retrofit, Android Studio",
+      "backend": "Backend: Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS",
+      "patterns": "Patterns: MVVM, Observer, Repository, Singleton, REST"
+    },
+    "curriculumSimulator": {
+      "title": "Curriculum Simulator",
+      "description": "Java Spring web application for students of my school to see which subjects are accessible to them according to the subjects they have passed.",
+      "techStack": "Used: Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2",
+      "patterns": "Patterns: MVC, Observer, Repository, Singleton"
+    },
+    "stibRide": {
+      "title": "Stib Ride",
+      "description": "JavaFX application that allows users to get the shortest path between two metro station in the public transport network of Brussels.",
+      "techStack": "Used: Java, JavaFx, Scene Builder, SQLite",
+      "patterns": "Patterns: MVP, Observer, Repository, Dao, Dto"
+    },
+    "rainbowAttack": {
+      "title": "Rainbow Attack",
+      "description": "Developed in the context of my cyber security course. This TUI C++ application allows you to generate a rainbow table and crack sha256 hashed passwords using the previously generated rainbow table.",
+      "techStack": "Used: C++, Makefile, Bash script"
+    },
+    "readingEsi": {
+      "title": "Reading Esi",
+      "description": "Reading Esi is an odoo module helping bookstore organizations to store, rent, buy and sell books",
+      "techStack": "Used: Odoo, Python",
+      "patterns": "Patterns: MVC"
+    },
+    "abalone": {
+      "title": "Abalone",
+      "description": "Developed the Abalone game using C++ and QT Designer while following the OOP principles.",
+      "techStack": "Used: C++, QT Designer",
+      "patterns": "Patterns: MVC, Observer"
+    },
+    "game2048": {
+      "title": "2048",
+      "description": "My JavaFX implementation of the 2048 game following the OOP principles",
+      "techStack": "Used: Java, JavaFx",
+      "patterns": "Patterns: MVC, Observer"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "success": "Thanks for contacting me!",
+    "form": {
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject..",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your name..",
+      "email": "Email",
+      "emailPlaceholder": "Your contact information..",
+      "message": "Inquiry",
+      "messagePlaceholder": "Write something..",
+      "submit": "Submit"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Hello, I'm Ayoub Lahyaoui a {{age}}-year-old Belgian software developer.\nI enjoy socializing, meeting new people, and learning about different cultures, which leads me to enjoy traveling.\nI have been fortunate to visit a few countries and hope to visit more in the future.\nAs a computer and technology enthusiast, I've developed a wide range of skills in a variety of computer-related fields, making me a highly adaptable individual.\nI strive to make use of all of my abilities but also to acquire new ones in order to help me complete my work as efficiently as possible."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "developedBy": "developed by",
+    "contact": {
+      "subtitle": "... got an idea?",
+      "title": "Let's create awesome things together!",
+      "text": "Feel free to reach out to me on social media."
+    }
+  }
+} 

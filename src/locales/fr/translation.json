@@ -1,0 +1,130 @@
+{
+  "introduction": {
+    "title": "Bonjour, je suis Ayoub",
+    "subtitle": "Développeur Full Stack",
+    "description": "Je suis un développeur Full Stack passionné, spécialisé dans la création d'applications web modernes. J'aime créer des solutions efficaces, évolutives et conviviales.",
+    "hobbies": "Quand je ne code pas, vous pouvez me trouver en train d'explorer de nouvelles technologies, de contribuer à des projets open-source ou de profiter d'activités en plein air."
+  },
+  "specialties": {
+    "title": "Mes Spécialités",
+    "fullStack": {
+      "title": "Développement Full Stack",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "programming": "Langages de Programmation"
+    },
+    "mobile": {
+      "title": "Développement Mobile",
+      "native": "Développement Natif",
+      "crossPlatform": "Cross-Platform"
+    },
+    "devops": {
+      "title": "DevOps",
+      "cloud": "Cloud & Infrastructure",
+      "cicd": "Contrôle de Version & CI/CD",
+      "tools": "Outils"
+    },
+    "languages": {
+      "title": "Langues",
+      "french": "Français (Langue Maternelle)",
+      "english": "Anglais (Professionnel Complet)",
+      "dutch": "Néerlandais (Professionnel Limité)"
+    }
+  },
+  "skills": {
+    "title": "Compétences",
+    "categories": {
+      "languages": "Langages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Bases de Données",
+      "devops": "DevOps",
+      "tools": "Outils"
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "tomtomAmigo": {
+      "title": "TomTom AmiGO",
+      "description": "TomTom AmiGO est une application mobile de navigation GPS gratuite et sans publicité disponible sur Android et iOS, supportant également Android Auto et Carplay. Elle offre de nombreuses fonctionnalités telles que des cartes fiables, des mises à jour du trafic en temps réel, des alertes de radars, etc...",
+      "techStack": "Utilisé : React Native, Redux Saga, Jest, Java, Kotlin, Swift"
+    },
+    "escooterFinder": {
+      "title": "E-Scooter Finder",
+      "description": "Application Android qui vous permet de trouver les trottinettes électriques à proximité de différentes entreprises de partage de trottinettes électriques.",
+      "frontend": "Frontend : Kotlin, Google Maps SDK, Retrofit, Android Studio",
+      "backend": "Backend : Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS",
+      "patterns": "Patterns : MVVM, Observer, Repository, Singleton, REST"
+    },
+    "curriculumSimulator": {
+      "title": "Simulateur de Curriculum",
+      "description": "Application web Java Spring permettant aux étudiants de mon école de voir quels cours leur sont accessibles en fonction des cours qu'ils ont réussis.",
+      "techStack": "Utilisé : Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2",
+      "patterns": "Patterns : MVC, Observer, Repository, Singleton"
+    },
+    "stibRide": {
+      "title": "Stib Ride",
+      "description": "Application JavaFX permettant aux utilisateurs d'obtenir le chemin le plus court entre deux stations de métro dans le réseau de transport public de Bruxelles.",
+      "techStack": "Utilisé : Java, JavaFx, Scene Builder, SQLite",
+      "patterns": "Patterns : MVP, Observer, Repository, Dao, Dto"
+    },
+    "rainbowAttack": {
+      "title": "Rainbow Attack",
+      "description": "Développé dans le cadre de mon cours de cybersécurité. Cette application C++ en interface texte permet de générer une table arc-en-ciel et de cracker des mots de passe hashés en sha256 en utilisant la table arc-en-ciel générée.",
+      "techStack": "Utilisé : C++, Makefile, Script Bash"
+    },
+    "readingEsi": {
+      "title": "Reading Esi",
+      "description": "Reading Esi est un module odoo aidant les organisations de librairies à stocker, louer, acheter et vendre des livres",
+      "techStack": "Utilisé : Odoo, Python",
+      "patterns": "Patterns : MVC"
+    },
+    "abalone": {
+      "title": "Abalone",
+      "description": "Développement du jeu Abalone en utilisant C++ et QT Designer tout en suivant les principes de la POO.",
+      "techStack": "Utilisé : C++, QT Designer",
+      "patterns": "Patterns : MVC, Observer"
+    },
+    "game2048": {
+      "title": "2048",
+      "description": "Mon implémentation du jeu 2048 en JavaFX suivant les principes de la POO",
+      "techStack": "Utilisé : Java, JavaFx",
+      "patterns": "Patterns : MVC, Observer"
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "success": "Merci de m'avoir contacté !",
+    "form": {
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sujet..",
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Votre nom..",
+      "email": "Email",
+      "emailPlaceholder": "Vos coordonnées..",
+      "message": "Message",
+      "messagePlaceholder": "Écrivez quelque chose..",
+      "submit": "Envoyer"
+    }
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "description": "Bonjour, je suis Ayoub Lahyaoui, un développeur belge de {{age}} ans.\nJ'aime socialiser, rencontrer de nouvelles personnes et découvrir différentes cultures, ce qui m'amène à aimer voyager.\nJ'ai eu la chance de visiter plusieurs pays et j'espère en visiter d'autres à l'avenir.\nEn tant qu'enthousiaste de l'informatique et de la technologie, j'ai développé un large éventail de compétences dans divers domaines liés à l'informatique, ce qui fait de moi une personne très adaptable.\nJe m'efforce d'utiliser toutes mes capacités mais aussi d'en acquérir de nouvelles afin de m'aider à accomplir mon travail aussi efficacement que possible."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "skills": "Compétences",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "footer": {
+    "developedBy": "développé par",
+    "contact": {
+      "subtitle": "... une idée ?",
+      "title": "Créons ensemble des choses extraordinaires !",
+      "text": "N'hésitez pas à me contacter sur les réseaux sociaux."
+    }
+  }
+} 

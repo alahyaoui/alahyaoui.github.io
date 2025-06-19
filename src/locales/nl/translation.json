@@ -1,0 +1,130 @@
+{
+  "introduction": {
+    "title": "Hallo, ik ben Ayoub",
+    "subtitle": "Full Stack Ontwikkelaar",
+    "description": "Ik ben een gepassioneerde Full Stack ontwikkelaar, gespecialiseerd in het maken van moderne webapplicaties. Ik hou ervan om efficiënte, schaalbare en gebruiksvriendelijke oplossingen te creëren.",
+    "hobbies": "Als ik niet aan het programmeren ben, kun je me vinden terwijl ik nieuwe technologieën verkenn, bijdraag aan open-source projecten of geniet van buitenactiviteiten."
+  },
+  "specialties": {
+    "title": "Mijn Specialiteiten",
+    "fullStack": {
+      "title": "Full Stack Ontwikkeling",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "programming": "Programmeertalen"
+    },
+    "mobile": {
+      "title": "Mobiele Ontwikkeling",
+      "native": "Native Ontwikkeling",
+      "crossPlatform": "Cross-Platform"
+    },
+    "devops": {
+      "title": "DevOps",
+      "cloud": "Cloud & Infrastructuur",
+      "cicd": "Versiebeheer & CI/CD",
+      "tools": "Tools"
+    },
+    "languages": {
+      "title": "Talen",
+      "french": "Frans (Moedertaal)",
+      "english": "Engels (Vloeiend Zakelijk)",
+      "dutch": "Nederlands (Beperkt Zakelijk)"
+    }
+  },
+  "skills": {
+    "title": "Vaardigheden",
+    "categories": {
+      "languages": "Talen",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "devops": "DevOps",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "title": "Projecten",
+    "tomtomAmigo": {
+      "title": "TomTom AmiGO",
+      "description": "TomTom AmiGO is een gratis en advertentievrije GPS-navigatie-app voor Android en iOS, die ook Android Auto en Carplay ondersteunt. Het biedt vele functies zoals betrouwbare kaarten, real-time verkeersupdates, flitspaalwaarschuwingen, etc...",
+      "techStack": "Gebruikt: React Native, Redux Saga, Jest, Java, Kotlin, Swift"
+    },
+    "escooterFinder": {
+      "title": "E-Scooter Finder",
+      "description": "Android-applicatie waarmee je elektrische scooters in de buurt kunt vinden van verschillende elektrische scooter-deelbedrijven.",
+      "frontend": "Frontend: Kotlin, Google Maps SDK, Retrofit, Android Studio",
+      "backend": "Backend: Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS",
+      "patterns": "Patterns: MVVM, Observer, Repository, Singleton, REST"
+    },
+    "curriculumSimulator": {
+      "title": "Curriculum Simulator",
+      "description": "Java Spring webapplicatie waarmee studenten van mijn school kunnen zien welke cursussen voor hen toegankelijk zijn op basis van de cursussen die ze hebben behaald.",
+      "techStack": "Gebruikt: Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2",
+      "patterns": "Patterns: MVC, Observer, Repository, Singleton"
+    },
+    "stibRide": {
+      "title": "Stib Ride",
+      "description": "JavaFX-applicatie waarmee gebruikers de kortste route tussen twee metrostations in het openbaar vervoersnetwerk van Brussel kunnen vinden.",
+      "techStack": "Gebruikt: Java, JavaFx, Scene Builder, SQLite",
+      "patterns": "Patterns: MVP, Observer, Repository, Dao, Dto"
+    },
+    "rainbowAttack": {
+      "title": "Rainbow Attack",
+      "description": "Ontwikkeld voor mijn cybersecurity cursus. Deze C++ command-line applicatie maakt het mogelijk om een regenboogtabel te genereren en sha256-gehashte wachtwoorden te kraken met behulp van de gegenereerde regenboogtabel.",
+      "techStack": "Gebruikt: C++, Makefile, Bash Script"
+    },
+    "readingEsi": {
+      "title": "Reading Esi",
+      "description": "Reading Esi is een odoo-module die bibliotheekorganisaties helpt bij het opslaan, lenen, kopen en verkopen van boeken",
+      "techStack": "Gebruikt: Odoo, Python",
+      "patterns": "Patterns: MVC"
+    },
+    "abalone": {
+      "title": "Abalone",
+      "description": "Ontwikkeling van het Abalone-spel met C++ en QT Designer, waarbij de principes van OOP worden gevolgd.",
+      "techStack": "Gebruikt: C++, QT Designer",
+      "patterns": "Patterns: MVC, Observer"
+    },
+    "game2048": {
+      "title": "2048",
+      "description": "Mijn implementatie van het 2048-spel in JavaFX, waarbij de principes van OOP worden gevolgd",
+      "techStack": "Gebruikt: Java, JavaFx",
+      "patterns": "Patterns: MVC, Observer"
+    }
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "success": "Bedankt voor je bericht!",
+    "form": {
+      "subject": "Onderwerp",
+      "subjectPlaceholder": "Onderwerp..",
+      "fullName": "Volledige Naam",
+      "fullNamePlaceholder": "Je naam..",
+      "email": "E-mail",
+      "emailPlaceholder": "Je contactgegevens..",
+      "message": "Bericht",
+      "messagePlaceholder": "Schrijf iets..",
+      "submit": "Versturen"
+    }
+  },
+  "about": {
+    "title": "Over Mij",
+    "description": "Hallo, ik ben Ayoub Lahyaoui, een {{age}} jaar oude Belgische ontwikkelaar.\nIk hou van socialiseren, nieuwe mensen ontmoeten en verschillende culturen ontdekken, wat me ertoe brengt om van reizen te houden.\nIk heb het geluk gehad om verschillende landen te bezoeken en hoop er in de toekomst nog meer te bezoeken.\nAls computer- en technologie-enthousiasteling heb ik een breed scala aan vaardigheden ontwikkeld op verschillende gebieden van informatica, wat me een zeer aanpasbaar persoon maakt.\nIk streef ernaar om al mijn capaciteiten te gebruiken maar ook nieuwe te verwerven om me te helpen mijn werk zo efficiënt mogelijk uit te voeren."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "Over",
+    "skills": "Vaardigheden",
+    "contact": "Contact",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "footer": {
+    "developedBy": "ontwikkeld door",
+    "contact": {
+      "subtitle": "... een idee?",
+      "title": "Laten we samen geweldige dingen maken!",
+      "text": "Aarzel niet om contact met me op te nemen via sociale media."
+    }
+  }
+} 

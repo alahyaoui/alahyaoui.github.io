@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './style/skill.css';
 import Chip from '@mui/material/Chip';
 
@@ -10,13 +11,15 @@ import { DiAws } from "react-icons/di";
 import { BsCursor } from "react-icons/bs";
 
 function Skill() {
+    const { t } = useTranslation();
+
     return (
         <section className="skills" id="skills">
             <div className="skills__container">
-                <h2 className="skills__title">Skills</h2>
+                <h2 className="skills__title">{t('skills.title')}</h2>
                 <div className="skills__grid">
                     <article className="skills__category">
-                        <h3 className="skills__subtitle">Languages</h3>
+                        <h3 className="skills__subtitle">{t('skills.categories.languages')}</h3>
                         <div className="skills__chips">
                             <Chip className="skills__chip" avatar={<FaJsSquare />} variant="outlined" label="JavaScript" />
                             <Chip className="skills__chip" avatar={<SiTypescript />} variant="outlined" label="TypeScript" />
@@ -30,7 +33,7 @@ function Skill() {
                     </article>
 
                     <article className="skills__category">
-                        <h3 className="skills__subtitle">Frontend</h3>
+                        <h3 className="skills__subtitle">{t('skills.categories.frontend')}</h3>
                         <div className="skills__chips">
                             <Chip className="skills__chip" avatar={<FaReact />} variant="outlined" label="React.js" />
                             <Chip className="skills__chip" avatar={<FaReact />} variant="outlined" label="React Native" />
@@ -43,7 +46,7 @@ function Skill() {
                     </article>
 
                     <article className="skills__category">
-                        <h3 className="skills__subtitle">Backend</h3>
+                        <h3 className="skills__subtitle">{t('skills.categories.backend')}</h3>
                         <div className="skills__chips">
                             <Chip className="skills__chip" avatar={<FaNodeJs />} variant="outlined" label="Node.js" />
                             <Chip className="skills__chip" avatar={<SiExpress />} variant="outlined" label="Express.js" />
@@ -54,7 +57,7 @@ function Skill() {
                     </article>
 
                     <article className="skills__category">
-                        <h3 className="skills__subtitle">Databases</h3>
+                        <h3 className="skills__subtitle">{t('skills.categories.databases')}</h3>
                         <div className="skills__chips">
                             <Chip className="skills__chip" avatar={<GrMysql />} variant="outlined" label="MySQL" />
                             <Chip className="skills__chip" avatar={<SiPostgresql />} variant="outlined" label="PostgreSQL" />
@@ -65,7 +68,7 @@ function Skill() {
                     </article>
 
                     <article className="skills__category">
-                        <h3 className="skills__subtitle">DevOps</h3>
+                        <h3 className="skills__subtitle">{t('skills.categories.devops')}</h3>
                         <div className="skills__chips">
                             <Chip className="skills__chip" avatar={<DiAws />} variant="outlined" label="AWS" />
                             <Chip className="skills__chip" avatar={<SiDocker />} variant="outlined" label="Docker" />
@@ -78,7 +81,7 @@ function Skill() {
                     </article>
 
                     <article className="skills__category">
-                        <h3 className="skills__subtitle">Tools</h3>
+                        <h3 className="skills__subtitle">{t('skills.categories.tools')}</h3>
                         <div className="skills__chips">
                             <Chip className="skills__chip" avatar={<BiLogoVisualStudio />} variant="outlined" label="VSCode" />
                             <Chip className="skills__chip" avatar={<SiIntellijidea />} variant="outlined" label="IntelliJ" />

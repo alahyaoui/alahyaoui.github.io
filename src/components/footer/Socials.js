@@ -1,11 +1,11 @@
 import React from 'react';
-import './style/contact.css';
+import './style/socials.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-function Contact() {
+function Socials() {
   const handleCopyToClipboard = (event) => {
     event.preventDefault();
     if (navigator.clipboard) {
@@ -15,7 +15,7 @@ function Contact() {
   };
 
   return (
-    <section className="contact" id="contact">
+    <section className="socials" id="socials">
       <ToastContainer
         position="top-right"
         autoClose={3000}
@@ -28,17 +28,17 @@ function Contact() {
         pauseOnHover
         theme="light"
       />
-      <div className="contact__container">
-        <h2 className="contact__subtitle">... got an idea?</h2>
-        <h1 className="contact__title">Let's create awesome things together!</h1>
-        <div className="contact__divider"></div>
-        <p className="contact__text">Feel free to reach out to me on social media.</p>
-        <nav className="contact__social">
-          <ul className="contact__social-list">
-            <li className="contact__social-item">
+      <div className="socials__container">
+        <h2 className="socials__subtitle">... got an idea?</h2>
+        <h1 className="socials__title">Let's create awesome things together!</h1>
+        <div className="socials__divider"></div>
+        <p className="socials__text">Feel free to reach out to me on social media.</p>
+        <nav className="socials__social">
+          <ul className="socials__social-list">
+            <li className="socials__social-item">
               <a 
                 href="https://www.linkedin.com/in/ayoub-lahyaoui/" 
-                className="contact__social-link"
+                className="socials__social-link"
                 title="LinkedIn profile" 
                 target="_blank" 
                 rel="noreferrer"
@@ -46,10 +46,10 @@ function Contact() {
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </li>
-            <li className="contact__social-item">
+            <li className="socials__social-item">
               <a 
                 href="https://github.com/alahyaoui" 
-                className="contact__social-link"
+                className="socials__social-link"
                 title="GitHub profile" 
                 target="_blank" 
                 rel="noreferrer"
@@ -57,10 +57,10 @@ function Contact() {
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
             </li>
-            <li className="contact__social-item">
+            <li className="socials__social-item">
               <a 
                 href="https://stackoverflow.com/users/18534641/ayoub-lahyaoui" 
-                className="contact__social-link"
+                className="socials__social-link"
                 title="Stack Overflow profile" 
                 target="_blank" 
                 rel="noreferrer"
@@ -68,10 +68,10 @@ function Contact() {
                 <FontAwesomeIcon icon={faStackOverflow} size="2x" />
               </a>
             </li>
-            <li className="contact__social-item">
+            <li className="socials__social-item">
               <a 
                 href="" 
-                className="contact__social-link"
+                className="socials__social-link"
                 title="Discord - ayoubino#8988" 
                 onClick={handleCopyToClipboard} 
                 target="_self"
@@ -86,4 +86,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Socials;

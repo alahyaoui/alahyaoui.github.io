@@ -6,25 +6,33 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
+  LanguageSwitcher,
   Footer,
   Home,
   About,
   ContactForm,
   Skill,
 } from "./components";
+import './i18n'; // Import i18n configuration
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
   <Router>
-    <Navigation />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/skills" element={<Skill />} />
-      <Route path="/contact" element={<ContactForm />} />
-    </Routes>
+    <header>
+      <div className="header__placeholder"></div>
+      <Navigation />
+      <LanguageSwitcher />
+    </header>
+    <main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skill />} />
+        <Route path="/contact" element={<ContactForm />} />
+      </Routes>
+    </main>
     <Footer />
   </Router>
 );

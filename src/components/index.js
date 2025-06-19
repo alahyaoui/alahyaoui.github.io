@@ -1,4 +1,5 @@
 export { default as Navigation } from "./navbar/Navigation";
+export { default as LanguageSwitcher } from "./language/LanguageSwitcher";
 export { default as Footer } from "./footer/Footer";
 export { default as Home } from "./home/Home";
 export { default as About } from "./about/About";
