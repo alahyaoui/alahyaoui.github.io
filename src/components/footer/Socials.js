@@ -4,13 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useTranslation } from 'react-i18next';
+import { DISCORD_ID, SOCIAL_LINKS } from '../../constants';
 
 function Socials() {
+  const { t } = useTranslation();
+
   const handleCopyToClipboard = (event) => {
     event.preventDefault();
     if (navigator.clipboard) {
-      navigator.clipboard.writeText('ayoubino#8988');
-      toast.success('Discord ID copied to clipboard', { icon: <FontAwesomeIcon icon={faDiscord} size="2x" /> });
+      navigator.clipboard.writeText(DISCORD_ID);
+      toast.success(t('socials.discordCopied'), { icon: <FontAwesomeIcon icon={faDiscord} size="2x" /> });
     }
   };
 
@@ -29,17 +33,17 @@ function Socials() {
         theme="light"
       />
       <div className="socials__container">
-        <h2 className="socials__subtitle">... got an idea?</h2>
-        <h1 className="socials__title">Let's create awesome things together!</h1>
+        <h2 className="socials__subtitle">{t('socials.subtitle')}</h2>
+        <h1 className="socials__title">{t('socials.title')}</h1>
         <div className="socials__divider"></div>
-        <p className="socials__text">Feel free to reach out to me on social media.</p>
+        <p className="socials__text">{t('socials.text')}</p>
         <nav className="socials__social">
           <ul className="socials__social-list">
             <li className="socials__social-item">
               <a 
-                href="https://www.linkedin.com/in/ayoub-lahyaoui/" 
+                href={SOCIAL_LINKS.LINKEDIN} 
                 className="socials__social-link"
-                title="LinkedIn profile" 
+                title={t('socials.linkedinTitle')} 
                 target="_blank" 
                 rel="noreferrer"
               >
@@ -48,9 +52,9 @@ function Socials() {
             </li>
             <li className="socials__social-item">
               <a 
-                href="https://github.com/alahyaoui" 
+                href={SOCIAL_LINKS.GITHUB} 
                 className="socials__social-link"
-                title="GitHub profile" 
+                title={t('socials.githubTitle')} 
                 target="_blank" 
                 rel="noreferrer"
               >
@@ -59,9 +63,9 @@ function Socials() {
             </li>
             <li className="socials__social-item">
               <a 
-                href="https://stackoverflow.com/users/18534641/ayoub-lahyaoui" 
+                href={SOCIAL_LINKS.STACKOVERFLOW} 
                 className="socials__social-link"
-                title="Stack Overflow profile" 
+                title={t('socials.stackoverflowTitle')} 
                 target="_blank" 
                 rel="noreferrer"
               >
@@ -71,7 +75,7 @@ function Socials() {
             <li className="socials__social-item">
               <button 
                 className="socials__social-button"
-                title="Discord - ayoubino#8988" 
+                title={`${t('socials.discordTitle')} - ${DISCORD_ID}`} 
                 onClick={handleCopyToClipboard} 
                 type="button"
               >

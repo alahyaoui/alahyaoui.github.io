@@ -2,7 +2,10 @@
   "introduction": {
     "title": "À propos de moi",
     "subtitle": "Salut, moi c'est Ayoub",
-    "description": "Je suis un développeur Fullstack curieux et adaptable, avec un œil attentif pour les détails et une passion pour la création de produits intuitifs et utiles. J'aime transformer des idées complexes en expériences simples et agréables, centrées sur l'humain."
+    "description": {
+      "long": "Je suis un développeur Full Stack passionné par la création d'expériences numériques utiles et bien pensées. Mon parcours a commencé par une forte curiosité pour les technologies et m'a naturellement conduit à étudier la gestion informatique à Bruxelles. Dès mes premières années d'études, j'ai cherché à mettre mes compétences en pratique à travers des projets personnels, un stage en développement mobile chez TomTom à Amsterdam, puis un poste de consultant développeur chez Capgemini.\n\nAvec le temps, j'ai compris que ce qui me motive réellement, c'est la possibilité de concevoir des produits à la fois simples, utiles et techniquement solides. C'est cette envie qui m'a poussé à reprendre mes études en France pour finaliser un master en informatique, avec l'objectif d'approfondir mes connaissances et de me recentrer sur ce qui m'anime le plus dans ce métier.\n\nAujourd'hui, je combine une expérience concrète du terrain, une forte capacité d'adaptation et un vrai plaisir à collaborer avec les autres. J'attache beaucoup d'importance à la clarté du code, à l'expérience utilisateur et à la qualité du travail bien fait. J'apprends en continu et je m'efforce toujours de concevoir des solutions simples, responsables et durables.",
+      "short": "Je suis un développeur Full Stack passionné par le code propre, l'expérience utilisateur et la création de produits utiles. Je poursuis actuellement un master en informatique pour aller plus loin dans ce que j'aime faire et construire des applications fiables et intuitives qui ont du sens."
+    }
   },
   "specialties": {
     "title": "Ce que je fais le mieux",
@@ -113,7 +116,6 @@
   "about": {
     "title": "En savoir plus",
     "description": "Je m'appelle Ayoub Lahyaoui, j'ai {{age}} ans et je suis un développeur Full Stack belge, passionné par le design, l'expérience utilisateur et la création de solutions qui ont du sens. Après avoir obtenu mon bachelier en informatique de gestion à Bruxelles, j'ai directement voulu confronter mes compétences au monde réel. J'ai eu la chance de faire mon stage de fin d'études chez TomTom à Amsterdam, où j'ai travaillé sur leur application de navigation AmiGO au sein d'une équipe Agile internationale. J'y ai développé des fonctionnalités complètes en React Native, Java et Swift, tout en découvrant le fonctionnement d'une grande équipe tech.\n\nJ'ai ensuite travaillé près de deux ans chez Capgemini en tant que consultant technique, où j'ai accompagné un client du secteur public dans la modernisation de ses systèmes d'information. J'ai développé aussi bien côté frontend que backend, dans un environnement microservices. Cette expérience m'a permis de renforcer ma rigueur, ma capacité d'adaptation et mon sens des responsabilités.\n\nMais malgré tout, j'ai ressenti le besoin d'aller plus loin : approfondir mes connaissances, me perfectionner dans la conception logicielle, l'interaction homme-machine et l'approche produit. J'ai donc choisi de reprendre mes études en France, dans le cadre d'un master en informatique, en alternance.\n\nAujourd'hui, je cherche à concevoir des applications utiles, fiables et bien pensées. J'aime le travail en équipe, le code propre, les feedbacks constructifs et les environnements où la curiosité et l'entraide ont toute leur place. Pour moi, un bon produit naît de l'équilibre entre l'empathie, la rigueur et la créativité."
-
   },
   "navigation": {
     "home": "Accueil",
@@ -124,11 +126,21 @@
     "closeMenu": "Fermer le menu"
   },
   "footer": {
-    "developedBy": "réalisé avec soin par",
+    "developedBy": "développé par",
     "contact": {
-      "subtitle": "un projet en tête ?",
-      "title": "Créons quelque chose de génial ensemble.",
-      "text": "N'hésitez pas à me contacter par email ou sur LinkedIn, je serais ravi d'en discuter avec vous."
+      "subtitle": "... une idée ?",
+      "title": "Créons ensemble des choses extraordinaires !",
+      "text": "N'hésitez pas à me contacter sur les réseaux sociaux."
     }
+  },
+  "socials": {
+    "subtitle": "... une idée ?",
+    "title": "Créons ensemble des choses extraordinaires !",
+    "text": "N'hésitez pas à me contacter sur les réseaux sociaux.",
+    "linkedinTitle": "Profil LinkedIn",
+    "githubTitle": "Profil GitHub",
+    "stackoverflowTitle": "Profil Stack Overflow",
+    "discordTitle": "Discord",
+    "discordCopied": "ID Discord copié dans le presse-papiers"
   }
 }

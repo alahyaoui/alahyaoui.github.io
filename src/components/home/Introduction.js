@@ -14,8 +14,11 @@ function Introduction() {
         <div className="introduction__content">
           <div className="introduction__bio">
             <h2 className="introduction__subtitle">{t('introduction.subtitle')}</h2>
-            <p className="introduction__text">
-              {t('introduction.description')}
+            <p className="introduction__text introduction__text--long">
+              {t('introduction.description.long')}
+            </p>
+            <p className="introduction__text introduction__text--short">
+              {t('introduction.description.short')}
             </p>
           </div>
           <div className="introduction__hobbies">

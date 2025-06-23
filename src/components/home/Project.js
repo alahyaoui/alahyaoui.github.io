@@ -9,7 +9,8 @@ import stibRideImage from './assets/img/stibride.jpeg';
 import esiReadingImage from './assets/img/esi_reading.jpeg';
 import abaloneImage from './assets/img/abalone.jpeg';
 import game2048Image from './assets/img/2048.jpeg';
-import FadeInSection from '../fade/FadeInSections'
+import FadeInSection from '../fade/FadeInSections';
+import { PROJECT_LINKS } from '../../constants';
 
 function Project() {
   const { t } = useTranslation();
@@ -21,7 +22,7 @@ function Project() {
           <h2 className="projects__title">{t('projects.title')}</h2>
           <div className="projects__grid">
             <article className="projects__item">
-              <a href="https://www.tomtom.com/en_gb/sat-nav/amigo/" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.TOMTOM_AMIGO} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={tomtomAmigoImage} className="projects__image" alt="TomTom AmiGO app screenshot" />
                 <h3 className="projects__subtitle">{t('projects.tomtomAmigo.title')}</h3>
               </a>
@@ -32,7 +33,7 @@ function Project() {
             </article>
 
             <article className="projects__item">
-              <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.ESCOOTER_FINDER} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={escooterFinderImage} className="projects__image" alt="E-Scooter Finder app screenshot" />
                 <h3 className="projects__subtitle">{t('projects.escooterFinder.title')}</h3>
               </a>
@@ -45,7 +46,7 @@ function Project() {
             </article>
 
             <article className="projects__item">
-              <a href="https://github.com/alahyaoui/curriculum-simulator" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.CURRICULUM_SIMULATOR} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={curriculumSimulatorImage} className="projects__image" alt="Curriculum Simulator app screenshot" />
                 <h3 className="projects__subtitle">{t('projects.curriculumSimulator.title')}</h3>
               </a>
@@ -57,7 +58,7 @@ function Project() {
             </article>
 
             <article className="projects__item">
-              <a href="https://github.com/alahyaoui/StibRide" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.STIB_RIDE} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={stibRideImage} className="projects__image" alt="Stib Ride app screenshot" />
                 <h3 className="projects__subtitle">{t('projects.stibRide.title')}</h3>
               </a>
@@ -69,7 +70,7 @@ function Project() {
             </article>
 
             <article className="projects__item">
-              <a href="https://github.com/alahyaoui/RainbowAttack" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.RAINBOW_ATTACK} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={rainbowAttackImage} className="projects__image" alt="Rainbow Attack app screenshot" />
                 <h3 className="projects__subtitle">{t('projects.rainbowAttack.title')}</h3>
               </a>
@@ -80,7 +81,7 @@ function Project() {
             </article>
 
             <article className="projects__item">
-              <a href="https://github.com/alahyaoui/esi_reading-odoo" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.ESI_READING} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={esiReadingImage} className="projects__image" alt="Reading Esi app screenshot" />
                 <h3 className="projects__subtitle">{t('projects.readingEsi.title')}</h3>
               </a>
@@ -92,7 +93,7 @@ function Project() {
             </article>
 
             <article className="projects__item">
-              <a href="https://github.com/alahyaoui/Abalone" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.ABALONE} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={abaloneImage} className="projects__image" alt="Abalone game screenshot" />
                 <h3 className="projects__subtitle">{t('projects.abalone.title')}</h3>
               </a>
@@ -104,7 +105,7 @@ function Project() {
             </article>
 
             <article className="projects__item">
-              <a href="https://github.com/alahyaoui/2048" target="_blank" rel="noreferrer" className="projects__link">
+              <a href={PROJECT_LINKS.GAME_2048} target="_blank" rel="noreferrer" className="projects__link">
                 <img src={game2048Image} className="projects__image" alt="2048 game screenshot" />
                 <h3 className="projects__subtitle">{t('projects.game2048.title')}</h3>
               </a>

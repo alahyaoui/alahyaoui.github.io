@@ -2,7 +2,10 @@
   "introduction": {
     "title": "Over Mij",
     "subtitle": "Hoi, ik ben Ayoub",
-    "description": "Ik ben een nieuwsgierige en veelzijdige Full Stack Developer met oog voor detail en een passie voor het bouwen van intuïtieve, gebruiksvriendelijke toepassingen. Ik hou ervan om complexe ideeën om te zetten in slimme en elegante oplossingen."
+    "description": {
+      "long": "Ik ben een Full Stack Developer met een sterke interesse in mensgerichte technologie. Mijn reis begon met een passie voor computers en software en leidde me naar een studie in IT management in Brussel. Tijdens mijn opleiding heb ik mijn vaardigheden meteen in praktijk gebracht via persoonlijke projecten en een stage als mobiele ontwikkelaar bij TomTom in Amsterdam. Daarna heb ik bijna twee jaar gewerkt als technisch consultant bij Capgemini waar ik heb bijgedragen aan de ontwikkeling van moderne webapplicaties.\n\nGaandeweg ontdekte ik dat mijn echte motivatie ligt in het bouwen van producten die nuttig logisch en intuïtief zijn. Daarom heb ik besloten mijn studies voort te zetten en een master in informatica te volgen in Frankrijk zodat ik mijn kennis verder kan verdiepen en me kan toeleggen op wat ik écht graag doe.\n\nVandaag combineer ik praktijkervaring met een grote aanpasbaarheid en een constante leerhouding. Ik hou van schone code duidelijke interfaces en constructieve samenwerking. Mijn doel is om oplossingen te ontwerpen die simpel betrouwbaar en gebruiksvriendelijk zijn en die écht iets bijdragen.",
+      "short": "Ik ben een nieuwsgierige en toegewijde Full Stack Developer uit België met een passie voor heldere code en zinvolle digitale producten. Ik volg momenteel een master in informatica om verder te groeien en duurzame oplossingen te bouwen die mensen echt helpen."
+    }
   },
   "specialties": {
     "title": "Waar ik in uitblink",
@@ -123,11 +126,21 @@
     "closeMenu": "Menu sluiten"
   },
   "footer": {
-    "developedBy": "ontwikkeld met zorg door",
+    "developedBy": "ontwikkeld door",
     "contact": {
-      "subtitle": "een idee in gedachten?",
-      "title": "Laten we iets moois maken.",
-      "text": "Stuur gerust een bericht via LinkedIn of e-mail   ik hoor graag van je."
+      "subtitle": "... een idee?",
+      "title": "Laten we samen geweldige dingen maken!",
+      "text": "Aarzel niet om contact met me op te nemen via sociale media."
     }
+  },
+  "socials": {
+    "subtitle": "... een idee?",
+    "title": "Laten we samen geweldige dingen maken!",
+    "text": "Aarzel niet om contact met me op te nemen via sociale media.",
+    "linkedinTitle": "LinkedIn profiel",
+    "githubTitle": "GitHub profiel",
+    "stackoverflowTitle": "Stack Overflow profiel",
+    "discordTitle": "Discord",
+    "discordCopied": "Discord ID gekopieerd naar klembord"
   }
 }

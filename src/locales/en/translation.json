@@ -2,7 +2,10 @@
   "introduction": {
     "title": "About Me",
     "subtitle": "Hey, I'm Ayoub",
-    "description": "I'm a curious and adaptable Full Stack Developer with a strong eye for detail and a passion for building intuitive and useful products. I thrive on turning complex ideas into elegant, user-friendly experiences that solve real problems."
+    "description": {
+      "long": "I'm a Full Stack Developer with a deep passion for creating meaningful digital experiences. My journey began with a strong curiosity for technology, which led me to study IT management and development in Brussels. I took every opportunity to apply what I was learning, whether through personal projects, a rewarding mobile development internship at TomTom in Amsterdam, or nearly two years of full stack consulting at Capgemini.\n\nOver time, I realized that what truly drives me is not just writing code, but building products that are well designed, human centered, and technically solid. That is why I made the decision to return to university in France to complete a master's degree in computer science, with the goal of deepening my expertise and focusing on what I enjoy most: turning creative ideas into intuitive and reliable software.\n\nToday, I bring a mix of real world experience, strong adaptability, and a love for collaboration. I care about clean code, good user experiences, and meaningful work. I am constantly seeking to improve, to learn from others, and to build things that solve real problems with care and responsibility.",
+      "short": "I'm a Full Stack Developer with a passion for clean code, thoughtful user experience, and meaningful products. I am currently pursuing a master's in computer science to deepen my expertise and do more of what I love, which is building intuitive and reliable software that makes a difference."
+    }
   },
   "specialties": {
     "title": "What I Do Best",
@@ -129,5 +132,15 @@
       "title": "Let's make something awesome together.",
       "text": "Feel free to reach out via LinkedIn or email   I'd love to hear from you."
     }
+  },
+  "socials": {
+    "subtitle": "... got an idea?",
+    "title": "Let's create awesome things together!",
+    "text": "Feel free to reach out to me on social media.",
+    "linkedinTitle": "LinkedIn profile",
+    "githubTitle": "GitHub profile",
+    "stackoverflowTitle": "Stack Overflow profile",
+    "discordTitle": "Discord",
+    "discordCopied": "Discord ID copied to clipboard"
   }
 }

@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
     const { t } = useTranslation();
-    const [state, handleSubmit] = useForm(process.env.FORMSPREE_KEY);
+    const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMSPREE_KEY);
 
     if (state.succeeded) {
         return (
