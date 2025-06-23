@@ -1,9 +1,9 @@
+/* Skill styles */
 .skills {
   padding: 5% 0;
 }
 
 .skills__container {
-  padding: 0 10%;
 }
 
 .skills__title {
@@ -51,9 +51,9 @@
   transform: scale(1.05);
 }
 
+/* Media queries */
 @media (max-width: 768px) {
   .skills__container {
-    padding: 0 5%;
   }
 
   .skills__title {

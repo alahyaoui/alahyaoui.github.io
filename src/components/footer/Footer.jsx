@@ -7,16 +7,16 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="footer__container">
+    <div className="footer__container">
       <div className="footer__socials">
         <Socials />
       </div>
-      <div className="footer_credits">
+      <div className="footer__credits">
         <p>
           {t('footer.developedBy')} <a href="https://github.com/alahyaoui" target="_blank" rel="noreferrer">Lahyaoui Ayoub</a>
         </p>
       </div>
-    </footer>
+    </div>
   );
 }
 

@@ -1,9 +1,9 @@
+/* Specialty styles */
 .specialties {
   padding: 5% 0;
 }
 
 .specialties__container {
-  padding: 0 10%;
 }
 
 .specialties__title {
@@ -15,7 +15,9 @@
 
 .specialties__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "fullStack mobile"
+                       "fullStack devops"
+                       "languages languages";
   gap: 2rem;
 }
 
@@ -27,8 +29,20 @@
   transition: transform 0.3s ease;
 }
 
-.specialties__item:last-child {
-  grid-column: 1 / -1;
+#specialties__fullStack {
+  grid-area: fullStack;
+}
+
+#specialties__mobile {
+  grid-area: mobile;
+}
+
+#specialties__devops {
+  grid-area: devops;
+}
+
+#specialties__languages {
+  grid-area: languages;
 }
 
 .specialties__item:hover {
@@ -50,8 +64,12 @@
   margin-top: 1rem;
 }
 
-.specialties__tech-label {
-  display: block;
+.specialties__category {
+  margin-bottom: 1.5rem;
+}
+
+.specialties__category-title {
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
   color: #666;
@@ -71,12 +89,8 @@
   transform: scale(1.05);
 }
 
+/* Media queries */
 @media (max-width: 1024px) {
-  .specialties__grid {
-    display: flex;
-    flex-direction: column;
-  }
-
   .specialties__item {
     display: flex;
     flex-direction: column;
@@ -89,15 +103,12 @@
 
 @media (max-width: 768px) {
   .specialties__container {
-    padding: 0 5%;
   }
 
   .specialties__grid {
-    grid-template-columns: 1fr;
-  }
-
-  .specialties__item {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 
   .specialties__title {
@@ -107,5 +118,14 @@
 
   .specialties__subtitle {
     font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .specialties__category-title {
+    text-align: center;
+  }
+
+  .specialties__chips {
+    justify-content: center;
   }
 }

@@ -1,3 +1,4 @@
+/* About styles */
 .about {
   padding: 5% 0;
 }
@@ -7,7 +8,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 0 10%;
 }
 
 .about__image-wrapper {
@@ -40,11 +40,11 @@
   color: #666;
 }
 
+/* Media queries */
 @media (max-width: 768px) {
   .about__container {
     flex-direction: column;
     text-align: center;
-    padding: 0 5%;
   }
 
   .about__title {

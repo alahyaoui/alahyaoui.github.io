@@ -20,6 +20,7 @@ const root = createRoot(container);
 
 root.render(
   <Router>
+    <div className="page">
     <header>
       <div className="header__placeholder"></div>
       <Navigation />
@@ -33,7 +34,10 @@ root.render(
         <Route path="/contact" element={<ContactForm />} />
       </Routes>
     </main>
-    <Footer />
+    <footer>
+      <Footer />
+    </footer>
+    </div>
   </Router>
 );
 

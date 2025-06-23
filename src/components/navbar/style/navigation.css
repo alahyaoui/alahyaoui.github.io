@@ -22,6 +22,7 @@
 .navigation__link {
   color: black;
   letter-spacing: 0.4vw;
+  text-decoration: none;
 }
 
 .navigation__link:hover {
