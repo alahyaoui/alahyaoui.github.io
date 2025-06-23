@@ -20,6 +20,28 @@ $ npm install
 
 Install dependencies.
 
+## Environment Variables
+
+Create a `.env` file in the project root with the following variables:
+
+```
+FORMSPREE_KEY=your_formspree_form_id_here
+```
+
+You can get your Formspree form ID from [https://formspree.io/forms](https://formspree.io/forms).
+
+### For GitHub Actions Deployment
+
+If you're using GitHub Actions to deploy to GitHub Pages, you need to add the environment variable as a repository secret:
+
+1. Go to your repository **Settings** → **Secrets and variables** → **Actions**
+2. Click **New repository secret**
+3. **Name**: `FORMSPREE_KEY`
+4. **Value**: Your actual Formspree form ID
+5. Click **Add secret**
+
+The workflow will automatically use this secret during the build process.
+
 ```
 $ npm start
 ```

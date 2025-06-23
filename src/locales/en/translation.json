@@ -97,6 +97,7 @@
   "contact": {
     "title": "Get In Touch",
     "success": "Thanks for reaching out!",
+    "error": "An error occurred while sending the message. Please try again.",
     "form": {
       "subject": "Subject",
       "subjectPlaceholder": "Subject of your message...",
