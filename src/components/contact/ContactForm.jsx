@@ -110,16 +110,4 @@ const ContactForm = () => {
     );
 }
 
-export const Contact = () => {
-    const { t } = useTranslation();
-    
-    return (
-        <div className="contact__footer">
-            <h3 className="contact__subtitle">{t('footer.contact.subtitle')}</h3>
-            <h2 className="contact__title">{t('footer.contact.title')}</h2>
-            <p className="contact__text">{t('footer.contact.text')}</p>
-        </div>
-    );
-};
-
 export default ContactForm;

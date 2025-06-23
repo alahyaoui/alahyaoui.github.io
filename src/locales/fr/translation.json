@@ -10,11 +10,14 @@
       "title": "Développement Fullstack",
       "frontend": "Frontend",
       "backend": "Backend",
-      "programming": "Langages"
+      "programming": "Langages",
+      "databases": "Bases de données",
+      "tools": "Outils"
     },
     "mobile": {
       "title": "Développement Mobile",
-      "native": "Développement natif",
+      "ios": "iOS",
+      "android": "Android",
       "crossPlatform": "Cross-plateforme"
     },
     "devops": {

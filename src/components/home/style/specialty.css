@@ -99,6 +99,10 @@
   .specialties__subtitle {
     text-align: center;
   }
+
+  .specialties__tech-stack {
+    margin-top: 0rem;
+  }
 }
 
 @media (max-width: 768px) {
