@@ -26,7 +26,9 @@ function Project() {
                 <h3 className="projects__subtitle">{t('projects.tomtomAmigo.title')}</h3>
               </a>
               <p className="projects__description">{t('projects.tomtomAmigo.description')}</p>
-              <p className="projects__tech-stack">{t('projects.tomtomAmigo.techStack')}</p>
+              <div className="projects__tools">
+                <p className="projects__tech-stack">{t('projects.tomtomAmigo.techStack')}</p>
+              </div>
             </article>
 
             <article className="projects__item">
@@ -72,7 +74,9 @@ function Project() {
                 <h3 className="projects__subtitle">{t('projects.rainbowAttack.title')}</h3>
               </a>
               <p className="projects__description">{t('projects.rainbowAttack.description')}</p>
-              <p className="projects__tech-stack">{t('projects.rainbowAttack.techStack')}</p>
+              <div className="projects__tools">
+                <p className="projects__tech-stack">{t('projects.rainbowAttack.techStack')}</p>
+              </div>
             </article>
 
             <article className="projects__item">

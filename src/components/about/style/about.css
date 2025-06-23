@@ -38,15 +38,25 @@
   font-size: 1.1rem;
   line-height: 1.6;
   color: #666;
+  text-align: justify;
+}
+
+.about img {
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 /* Media queries */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .about__container {
     flex-direction: column;
-    text-align: center;
   }
 
+  .about__title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
   .about__title {
     font-size: 2rem;
   }
@@ -58,8 +68,4 @@
   .about__image {
     max-width: 80%;
   }
-}
-
-.about img {
-    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
