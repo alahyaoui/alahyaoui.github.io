@@ -1,17 +1,16 @@
 {
   "introduction": {
-    "title": "Hi, I'm Ayoub",
-    "subtitle": "Full Stack Developer",
-    "description": "I'm a passionate Full Stack Developer with expertise in building modern web applications. I love creating efficient, scalable, and user-friendly solutions.",
-    "hobbies": "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying outdoor activities."
+    "title": "About Me",
+    "subtitle": "Hey, I'm Ayoub",
+    "description": "I'm a curious and adaptable Full Stack Developer with a strong eye for detail and a passion for building intuitive and useful products. I thrive on turning complex ideas into elegant, user-friendly experiences that solve real problems."
   },
   "specialties": {
-    "title": "My Specialties",
+    "title": "What I Do Best",
     "fullStack": {
       "title": "Full Stack Development",
       "frontend": "Frontend",
       "backend": "Backend",
-      "programming": "Programming Languages"
+      "programming": "Languages"
     },
     "mobile": {
       "title": "Mobile Development",
@@ -20,15 +19,15 @@
     },
     "devops": {
       "title": "DevOps",
-      "cloud": "Cloud & Infrastructure",
-      "cicd": "Version Control & CI/CD",
-      "tools": "Tools"
+      "cloud": "Cloud",
+      "cicd": "CI/CD & Automation",
+      "tools": "Productivity Tools & Best Practices"
     },
     "languages": {
       "title": "Languages",
-      "french": "French (Mother Tongue)",
-      "english": "English (Full Professional)",
-      "dutch": "Dutch (Limited Professional)"
+      "french": "French (Native)",
+      "english": "English (Fluent)",
+      "dutch": "Dutch (Intermediate)"
     }
   },
   "skills": {
@@ -39,77 +38,77 @@
       "backend": "Backend",
       "databases": "Databases",
       "devops": "DevOps",
-      "tools": "Tools"
+      "tools": "Tools & Workflow"
     }
   },
   "projects": {
-    "title": "Projects",
+    "title": "Personal & Team Projects",
     "tomtomAmigo": {
       "title": "TomTom AmiGO",
-      "description": "TomTom AmiGO is a free and adless GPS navigation mobile app available on Android and iOS also supporting Android Auto and Carplay, it offers a lot of features such as trusted maps, real-time traffic updates, speed camera alerts, etc…",
-      "techStack": "Used: React Native, Redux Saga, Jest, Java, Kotlin, Swift"
+      "description": "TomTom AmiGO is a free, ad-free mobile navigation app available on Android, iOS, Android Auto and CarPlay. I contributed to the development of core features, UI components, and test automation as part of the international mobile team.",
+      "techStack": "Tech: React Native, Redux Saga, Java, Swift, Jest"
     },
     "escooterFinder": {
       "title": "E-Scooter Finder",
-      "description": "Android application, which finds you nearby e-scooters from various electric scooter sharing companies.",
-      "frontend": "Frontend: Kotlin, Google Maps SDK, Retrofit, Android Studio",
-      "backend": "Backend: Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS",
-      "patterns": "Patterns: MVVM, Observer, Repository, Singleton, REST"
+      "description": "An Android app that displays nearby e-scooters from multiple rental companies on a single map. Built with a custom backend that consumes GBFS feeds and processes geospatial data.",
+      "frontend": "Frontend: Kotlin, Google Maps SDK, MVVM",
+      "backend": "Backend: Spring Boot, PostGIS, AWS",
+      "patterns": "Design: MVVM, Repository, Singleton"
     },
     "curriculumSimulator": {
       "title": "Curriculum Simulator",
-      "description": "Java Spring web application for students of my school to see which subjects are accessible to them according to the subjects they have passed.",
-      "techStack": "Used: Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2",
-      "patterns": "Patterns: MVC, Observer, Repository, Singleton"
+      "description": "A web and mobile app that helps students visualize which courses are accessible based on their academic path. Used internally by my school.",
+      "techStack": "Tech: Java, Spring Boot, React Native, H2",
+      "patterns": "Design: MVC, Reactive, REST"
     },
     "stibRide": {
       "title": "Stib Ride",
-      "description": "JavaFX application that allows users to get the shortest path between two metro station in the public transport network of Brussels.",
-      "techStack": "Used: Java, JavaFx, Scene Builder, SQLite",
-      "patterns": "Patterns: MVP, Observer, Repository, Dao, Dto"
+      "description": "A pathfinding app to find the shortest route between two metro stations in Brussels' transport network, using JavaFX and graph theory.",
+      "techStack": "Tech: Java, JavaFX, SQLite",
+      "patterns": "Design: MVP, DAO, DTO"
     },
     "rainbowAttack": {
       "title": "Rainbow Attack",
-      "description": "Developed in the context of my cyber security course. This TUI C++ application allows you to generate a rainbow table and crack sha256 hashed passwords using the previously generated rainbow table.",
-      "techStack": "Used: C++, Makefile, Bash script"
+      "description": "A C++ command-line tool to generate rainbow tables and crack SHA-256 hashes. Developed during my cybersecurity course to explore password cracking techniques.",
+      "techStack": "Tech: C++, Makefile, Bash"
     },
     "readingEsi": {
-      "title": "Reading Esi",
-      "description": "Reading Esi is an odoo module helping bookstore organizations to store, rent, buy and sell books",
-      "techStack": "Used: Odoo, Python",
-      "patterns": "Patterns: MVC"
+      "title": "Reading ESI",
+      "description": "An Odoo module developed for a student bookstore to manage book rentals and sales. My first hands-on experience with ERP customization.",
+      "techStack": "Tech: Odoo, Python",
+      "patterns": "Design: MVC"
     },
     "abalone": {
       "title": "Abalone",
-      "description": "Developed the Abalone game using C++ and QT Designer while following the OOP principles.",
-      "techStack": "Used: C++, QT Designer",
-      "patterns": "Patterns: MVC, Observer"
+      "description": "Implementation of the Abalone board game using C++ and Qt Designer. Focused on clean architecture and user interaction.",
+      "techStack": "Tech: C++, Qt Designer",
+      "patterns": "Design: MVC, Observer"
     },
     "game2048": {
       "title": "2048",
-      "description": "My JavaFX implementation of the 2048 game following the OOP principles",
-      "techStack": "Used: Java, JavaFx",
-      "patterns": "Patterns: MVC, Observer"
+      "description": "My own take on the 2048 game, developed in JavaFX with a clean and responsive UI. A fun exercise in object-oriented design.",
+      "techStack": "Tech: Java, JavaFX",
+      "patterns": "Design: MVC, Observer"
     }
   },
   "contact": {
-    "title": "Contact Me",
-    "success": "Thanks for contacting me!",
+    "title": "Get In Touch",
+    "success": "Thanks for reaching out!",
     "form": {
       "subject": "Subject",
-      "subjectPlaceholder": "Subject..",
-      "fullName": "Full Name",
-      "fullNamePlaceholder": "Your name..",
-      "email": "Email",
-      "emailPlaceholder": "Your contact information..",
-      "message": "Inquiry",
-      "messagePlaceholder": "Write something..",
-      "submit": "Submit"
+      "subjectPlaceholder": "Subject of your message...",
+      "fullName": "Your Name",
+      "fullNamePlaceholder": "Who are you?",
+      "email": "Your Email",
+      "emailPlaceholder": "How can I reach you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me more...",
+      "submit": "Send Message"
     }
   },
   "about": {
-    "title": "About Me",
-    "description": "Hello, I'm Ayoub Lahyaoui a {{age}}-year-old Belgian software developer.\nI enjoy socializing, meeting new people, and learning about different cultures, which leads me to enjoy traveling.\nI have been fortunate to visit a few countries and hope to visit more in the future.\nAs a computer and technology enthusiast, I've developed a wide range of skills in a variety of computer-related fields, making me a highly adaptable individual.\nI strive to make use of all of my abilities but also to acquire new ones in order to help me complete my work as efficiently as possible."
+    "title": "More About Me",
+    "description": "I'm Ayoub Lahyaoui, a {{age}}-year-old Belgian Full Stack Developer with a passion for clean design, user experience, and building things that make sense. After completing my bachelor's degree in Computer Science in Brussels, I dove straight into the industry to gain hands-on experience. I had the opportunity to join TomTom in Amsterdam for my final-year internship, where I contributed to their large-scale navigation app AmiGO. It was my first taste of working in an international Agile team, building features across React Native, Java, and Swift.\n\nI then spent nearly two years as a Technical Consultant at Capgemini, where I helped clients in the public utility sector modernize their systems. I worked on both frontend and backend applications, mostly in microservice-based architectures. It sharpened my ability to write scalable code, collaborate with business stakeholders, and deliver real-world impact.\n\nBut over time, I felt the urge to go deeper to strengthen my foundations, sharpen my software craftsmanship, and explore topics like software design, human-computer interaction, and product thinking. That's why I decided to return to university to pursue a Master's degree in Computer Science in France.\n\nToday, I'm focused on building thoughtful, reliable and well-designed applications always with the end user in mind. I care about details, love collaborative work, and value clear communication, curiosity, and continuous learning. I believe great software comes from a balance of empathy, rigor, and creativity."
   },
   "navigation": {
     "home": "Home",
@@ -120,11 +119,11 @@
     "closeMenu": "Close menu"
   },
   "footer": {
-    "developedBy": "developed by",
+    "developedBy": "built with care by",
     "contact": {
-      "subtitle": "... got an idea?",
-      "title": "Let's create awesome things together!",
-      "text": "Feel free to reach out to me on social media."
+      "subtitle": "have a project in mind?",
+      "title": "Let's make something awesome together.",
+      "text": "Feel free to reach out via LinkedIn or email   I'd love to hear from you."
     }
   }
-} 
+}

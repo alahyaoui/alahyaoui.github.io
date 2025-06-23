@@ -14,18 +14,9 @@ function Introduction() {
         <div className="introduction__content">
           <div className="introduction__bio">
             <h2 className="introduction__subtitle">{t('introduction.subtitle')}</h2>
-            <p className="introduction__text introduction__text--desktop">
+            <p className="introduction__text">
               {t('introduction.description')}
             </p>
-            <p className="introduction__text introduction__text--mobile">
-              {t('introduction.hobbies')}
-            </p>
-            <div className="introduction__chips">
-              <Chip className="introduction__chip" label="React" />
-              <Chip className="introduction__chip" label="Node.js" />
-              <Chip className="introduction__chip" label="TypeScript" />
-              <Chip className="introduction__chip" label="Java" />
-            </div>
           </div>
           <div className="introduction__hobbies">
             <h2 className="introduction__subtitle">My hobbies</h2>

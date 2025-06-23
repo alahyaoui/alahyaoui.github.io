@@ -42,10 +42,6 @@
   margin-bottom: 1rem;
 }
 
-.introduction__text--mobile {
-  display: none;
-}
-
 .introduction__hobbies {
   grid-area: hobbies;
 }
@@ -81,14 +77,6 @@
   .introduction__content {
     grid-template-areas: "image bio hobbies";
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .introduction__text--mobile {
-    display: block;
-  }
-
-  .introduction__text--desktop {
-    display: none;
   }
 }
 

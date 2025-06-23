@@ -1,34 +1,33 @@
 {
   "introduction": {
-    "title": "Bonjour, je suis Ayoub",
-    "subtitle": "Développeur Full Stack",
-    "description": "Je suis un développeur Full Stack passionné, spécialisé dans la création d'applications web modernes. J'aime créer des solutions efficaces, évolutives et conviviales.",
-    "hobbies": "Quand je ne code pas, vous pouvez me trouver en train d'explorer de nouvelles technologies, de contribuer à des projets open-source ou de profiter d'activités en plein air."
+    "title": "À propos de moi",
+    "subtitle": "Salut, moi c'est Ayoub",
+    "description": "Je suis un développeur Fullstack curieux et adaptable, avec un œil attentif pour les détails et une passion pour la création de produits intuitifs et utiles. J'aime transformer des idées complexes en expériences simples et agréables, centrées sur l'humain."
   },
   "specialties": {
-    "title": "Mes Spécialités",
+    "title": "Ce que je fais le mieux",
     "fullStack": {
-      "title": "Développement Full Stack",
+      "title": "Développement Fullstack",
       "frontend": "Frontend",
       "backend": "Backend",
-      "programming": "Langages de Programmation"
+      "programming": "Langages"
     },
     "mobile": {
       "title": "Développement Mobile",
-      "native": "Développement Natif",
-      "crossPlatform": "Cross-Platform"
+      "native": "Développement natif",
+      "crossPlatform": "Cross-plateforme"
     },
     "devops": {
       "title": "DevOps",
-      "cloud": "Cloud & Infrastructure",
-      "cicd": "Contrôle de Version & CI/CD",
-      "tools": "Outils"
+      "cloud": "Cloud",
+      "cicd": "CI/CD & automatisation",
+      "tools": "Outils et bonnes pratiques"
     },
     "languages": {
       "title": "Langues",
-      "french": "Français (Langue Maternelle)",
-      "english": "Anglais (Professionnel Complet)",
-      "dutch": "Néerlandais (Professionnel Limité)"
+      "french": "Français (langue maternelle)",
+      "english": "Anglais (courant)",
+      "dutch": "Néerlandais (intermédiaire)"
     }
   },
   "skills": {
@@ -37,94 +36,95 @@
       "languages": "Langages",
       "frontend": "Frontend",
       "backend": "Backend",
-      "databases": "Bases de Données",
+      "databases": "Bases de données",
       "devops": "DevOps",
-      "tools": "Outils"
+      "tools": "Outils & workflow"
     }
   },
   "projects": {
-    "title": "Projets",
+    "title": "Projets persos et en équipe",
     "tomtomAmigo": {
       "title": "TomTom AmiGO",
-      "description": "TomTom AmiGO est une application mobile de navigation GPS gratuite et sans publicité disponible sur Android et iOS, supportant également Android Auto et Carplay. Elle offre de nombreuses fonctionnalités telles que des cartes fiables, des mises à jour du trafic en temps réel, des alertes de radars, etc...",
-      "techStack": "Utilisé : React Native, Redux Saga, Jest, Java, Kotlin, Swift"
+      "description": "TomTom AmiGO est une application mobile de navigation gratuite et sans pub, disponible sur Android, iOS, Android Auto et CarPlay. J'y ai contribué au développement de fonctionnalités clés, composants UI et tests automatisés, au sein d'une équipe mobile internationale.",
+      "techStack": "Techno : React Native, Redux Saga, Java, Swift, Jest"
     },
     "escooterFinder": {
       "title": "E-Scooter Finder",
-      "description": "Application Android qui vous permet de trouver les trottinettes électriques à proximité de différentes entreprises de partage de trottinettes électriques.",
-      "frontend": "Frontend : Kotlin, Google Maps SDK, Retrofit, Android Studio",
-      "backend": "Backend : Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS",
-      "patterns": "Patterns : MVVM, Observer, Repository, Singleton, REST"
+      "description": "Application Android affichant sur une seule carte les trottinettes à proximité provenant de plusieurs opérateurs. Le backend traite les flux GBFS et les données géospatiales.",
+      "frontend": "Frontend : Kotlin, Google Maps SDK, MVVM",
+      "backend": "Backend : Spring Boot, PostGIS, AWS",
+      "patterns": "Design : MVVM, Repository, Singleton"
     },
     "curriculumSimulator": {
-      "title": "Simulateur de Curriculum",
-      "description": "Application web Java Spring permettant aux étudiants de mon école de voir quels cours leur sont accessibles en fonction des cours qu'ils ont réussis.",
-      "techStack": "Utilisé : Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2",
-      "patterns": "Patterns : MVC, Observer, Repository, Singleton"
+      "title": "Curriculum Simulator",
+      "description": "Application web et mobile permettant aux étudiants de visualiser les cours accessibles selon leur parcours académique. Utilisée dans mon ancienne école.",
+      "techStack": "Techno : Java, Spring Boot, React Native, H2",
+      "patterns": "Design : MVC, Réactif, REST"
     },
     "stibRide": {
       "title": "Stib Ride",
-      "description": "Application JavaFX permettant aux utilisateurs d'obtenir le chemin le plus court entre deux stations de métro dans le réseau de transport public de Bruxelles.",
-      "techStack": "Utilisé : Java, JavaFx, Scene Builder, SQLite",
-      "patterns": "Patterns : MVP, Observer, Repository, Dao, Dto"
+      "description": "Application JavaFX permettant de calculer le plus court chemin entre deux stations du métro bruxellois. Utilise des algorithmes de graphes.",
+      "techStack": "Techno : Java, JavaFX, SQLite",
+      "patterns": "Design : MVP, DAO, DTO"
     },
     "rainbowAttack": {
       "title": "Rainbow Attack",
-      "description": "Développé dans le cadre de mon cours de cybersécurité. Cette application C++ en interface texte permet de générer une table arc-en-ciel et de cracker des mots de passe hashés en sha256 en utilisant la table arc-en-ciel générée.",
-      "techStack": "Utilisé : C++, Makefile, Script Bash"
+      "description": "Outil en ligne de commande C++ permettant de générer des rainbow tables et de casser des mots de passe hashés en SHA-256. Réalisé dans le cadre d'un cours de cybersécurité.",
+      "techStack": "Techno : C++, Makefile, Bash"
     },
     "readingEsi": {
-      "title": "Reading Esi",
-      "description": "Reading Esi est un module odoo aidant les organisations de librairies à stocker, louer, acheter et vendre des livres",
-      "techStack": "Utilisé : Odoo, Python",
-      "patterns": "Patterns : MVC"
+      "title": "Reading ESI",
+      "description": "Module Odoo développé pour une librairie étudiante afin de gérer la vente et la location de livres. Ma première expérience avec un ERP.",
+      "techStack": "Techno : Odoo, Python",
+      "patterns": "Design : MVC"
     },
     "abalone": {
       "title": "Abalone",
-      "description": "Développement du jeu Abalone en utilisant C++ et QT Designer tout en suivant les principes de la POO.",
-      "techStack": "Utilisé : C++, QT Designer",
-      "patterns": "Patterns : MVC, Observer"
+      "description": "Jeu de plateau Abalone codé en C++ avec Qt Designer. Travail axé sur l'interaction utilisateur et une architecture propre.",
+      "techStack": "Techno : C++, Qt Designer",
+      "patterns": "Design : MVC, Observer"
     },
     "game2048": {
       "title": "2048",
-      "description": "Mon implémentation du jeu 2048 en JavaFX suivant les principes de la POO",
-      "techStack": "Utilisé : Java, JavaFx",
-      "patterns": "Patterns : MVC, Observer"
+      "description": "Ma version du jeu 2048, développée en JavaFX avec une interface responsive. Exercice personnel autour de la programmation orientée objet.",
+      "techStack": "Techno : Java, JavaFX",
+      "patterns": "Design : MVC, Observer"
     }
   },
   "contact": {
-    "title": "Contactez-moi",
-    "success": "Merci de m'avoir contacté !",
+    "title": "Me contacter",
+    "success": "Merci pour votre message !",
     "form": {
       "subject": "Sujet",
-      "subjectPlaceholder": "Sujet..",
-      "fullName": "Nom Complet",
-      "fullNamePlaceholder": "Votre nom..",
-      "email": "Email",
-      "emailPlaceholder": "Vos coordonnées..",
+      "subjectPlaceholder": "Sujet de votre message...",
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Qui êtes-vous ?",
+      "email": "Adresse email",
+      "emailPlaceholder": "Comment puis-je vous répondre ?",
       "message": "Message",
-      "messagePlaceholder": "Écrivez quelque chose..",
+      "messagePlaceholder": "Parlez-moi de votre projet ou de votre idée...",
       "submit": "Envoyer"
     }
   },
   "about": {
-    "title": "À Propos de Moi",
-    "description": "Bonjour, je suis Ayoub Lahyaoui, un développeur belge de {{age}} ans.\nJ'aime socialiser, rencontrer de nouvelles personnes et découvrir différentes cultures, ce qui m'amène à aimer voyager.\nJ'ai eu la chance de visiter plusieurs pays et j'espère en visiter d'autres à l'avenir.\nEn tant qu'enthousiaste de l'informatique et de la technologie, j'ai développé un large éventail de compétences dans divers domaines liés à l'informatique, ce qui fait de moi une personne très adaptable.\nJe m'efforce d'utiliser toutes mes capacités mais aussi d'en acquérir de nouvelles afin de m'aider à accomplir mon travail aussi efficacement que possible."
+    "title": "En savoir plus",
+    "description": "Je m'appelle Ayoub Lahyaoui, j'ai {{age}} ans et je suis un développeur Full Stack belge, passionné par le design, l'expérience utilisateur et la création de solutions qui ont du sens. Après avoir obtenu mon bachelier en informatique de gestion à Bruxelles, j'ai directement voulu confronter mes compétences au monde réel. J'ai eu la chance de faire mon stage de fin d'études chez TomTom à Amsterdam, où j'ai travaillé sur leur application de navigation AmiGO au sein d'une équipe Agile internationale. J'y ai développé des fonctionnalités complètes en React Native, Java et Swift, tout en découvrant le fonctionnement d'une grande équipe tech.\n\nJ'ai ensuite travaillé près de deux ans chez Capgemini en tant que consultant technique, où j'ai accompagné un client du secteur public dans la modernisation de ses systèmes d'information. J'ai développé aussi bien côté frontend que backend, dans un environnement microservices. Cette expérience m'a permis de renforcer ma rigueur, ma capacité d'adaptation et mon sens des responsabilités.\n\nMais malgré tout, j'ai ressenti le besoin d'aller plus loin : approfondir mes connaissances, me perfectionner dans la conception logicielle, l'interaction homme-machine et l'approche produit. J'ai donc choisi de reprendre mes études en France, dans le cadre d'un master en informatique, en alternance.\n\nAujourd'hui, je cherche à concevoir des applications utiles, fiables et bien pensées. J'aime le travail en équipe, le code propre, les feedbacks constructifs et les environnements où la curiosité et l'entraide ont toute leur place. Pour moi, un bon produit naît de l'équilibre entre l'empathie, la rigueur et la créativité."
+
   },
   "navigation": {
     "home": "Accueil",
-    "about": "À Propos",
+    "about": "À propos",
     "skills": "Compétences",
     "contact": "Contact",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu"
   },
   "footer": {
-    "developedBy": "développé par",
+    "developedBy": "réalisé avec soin par",
     "contact": {
-      "subtitle": "... une idée ?",
-      "title": "Créons ensemble des choses extraordinaires !",
-      "text": "N'hésitez pas à me contacter sur les réseaux sociaux."
+      "subtitle": "un projet en tête ?",
+      "title": "Créons quelque chose de génial ensemble.",
+      "text": "N'hésitez pas à me contacter par email ou sur LinkedIn, je serais ravi d'en discuter avec vous."
     }
   }
-} 
+}

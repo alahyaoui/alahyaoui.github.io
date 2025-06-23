@@ -1,12 +1,11 @@
 {
   "introduction": {
-    "title": "Hallo, ik ben Ayoub",
-    "subtitle": "Full Stack Ontwikkelaar",
-    "description": "Ik ben een gepassioneerde Full Stack ontwikkelaar, gespecialiseerd in het maken van moderne webapplicaties. Ik hou ervan om efficiënte, schaalbare en gebruiksvriendelijke oplossingen te creëren.",
-    "hobbies": "Als ik niet aan het programmeren ben, kun je me vinden terwijl ik nieuwe technologieën verkenn, bijdraag aan open-source projecten of geniet van buitenactiviteiten."
+    "title": "Over Mij",
+    "subtitle": "Hoi, ik ben Ayoub",
+    "description": "Ik ben een nieuwsgierige en veelzijdige Full Stack Developer met oog voor detail en een passie voor het bouwen van intuïtieve, gebruiksvriendelijke toepassingen. Ik hou ervan om complexe ideeën om te zetten in slimme en elegante oplossingen."
   },
   "specialties": {
-    "title": "Mijn Specialiteiten",
+    "title": "Waar ik in uitblink",
     "fullStack": {
       "title": "Full Stack Ontwikkeling",
       "frontend": "Frontend",
@@ -16,19 +15,19 @@
     "mobile": {
       "title": "Mobiele Ontwikkeling",
       "native": "Native Ontwikkeling",
-      "crossPlatform": "Cross-Platform"
+      "crossPlatform": "Cross-platform"
     },
     "devops": {
       "title": "DevOps",
-      "cloud": "Cloud & Infrastructuur",
-      "cicd": "Versiebeheer & CI/CD",
-      "tools": "Tools"
+      "cloud": "Cloud",
+      "cicd": "CI/CD & Automatisering",
+      "tools": "Tools & Best Practices"
     },
     "languages": {
       "title": "Talen",
-      "french": "Frans (Moedertaal)",
-      "english": "Engels (Vloeiend Zakelijk)",
-      "dutch": "Nederlands (Beperkt Zakelijk)"
+      "french": "Frans (moedertaal)",
+      "english": "Engels (vloeiend)",
+      "dutch": "Nederlands (gemiddeld niveau)"
     }
   },
   "skills": {
@@ -37,94 +36,94 @@
       "languages": "Talen",
       "frontend": "Frontend",
       "backend": "Backend",
-      "databases": "Databases",
+      "databases": "Databanken",
       "devops": "DevOps",
-      "tools": "Tools"
+      "tools": "Tools & Workflow"
     }
   },
   "projects": {
-    "title": "Projecten",
+    "title": "Persoonlijke & Teamprojecten",
     "tomtomAmigo": {
       "title": "TomTom AmiGO",
-      "description": "TomTom AmiGO is een gratis en advertentievrije GPS-navigatie-app voor Android en iOS, die ook Android Auto en Carplay ondersteunt. Het biedt vele functies zoals betrouwbare kaarten, real-time verkeersupdates, flitspaalwaarschuwingen, etc...",
-      "techStack": "Gebruikt: React Native, Redux Saga, Jest, Java, Kotlin, Swift"
+      "description": "TomTom AmiGO is een gratis en advertentievrije navigatie-app beschikbaar op Android, iOS, Android Auto en CarPlay. Ik werkte mee aan de ontwikkeling van kernfunctionaliteiten, UI-componenten en automatische tests binnen een internationaal mobiel team.",
+      "techStack": "Technologieën: React Native, Redux Saga, Java, Swift, Jest"
     },
     "escooterFinder": {
       "title": "E-Scooter Finder",
-      "description": "Android-applicatie waarmee je elektrische scooters in de buurt kunt vinden van verschillende elektrische scooter-deelbedrijven.",
-      "frontend": "Frontend: Kotlin, Google Maps SDK, Retrofit, Android Studio",
-      "backend": "Backend: Kotlin Spring, RestTemplate, Spring Data JPA, PostGIS, AWS",
-      "patterns": "Patterns: MVVM, Observer, Repository, Singleton, REST"
+      "description": "Een Android-app die e-scooters van verschillende verhuurbedrijven op één kaart toont. Ondersteund door een eigen backend die GBFS-feeds verwerkt met georuimtelijke data.",
+      "frontend": "Frontend: Kotlin, Google Maps SDK, MVVM",
+      "backend": "Backend: Spring Boot, PostGIS, AWS",
+      "patterns": "Architectuur: MVVM, Repository, Singleton"
     },
     "curriculumSimulator": {
       "title": "Curriculum Simulator",
-      "description": "Java Spring webapplicatie waarmee studenten van mijn school kunnen zien welke cursussen voor hen toegankelijk zijn op basis van de cursussen die ze hebben behaald.",
-      "techStack": "Gebruikt: Java, Spring Boot, Bootstrap, Thymeleaf, Lombok, H2",
-      "patterns": "Patterns: MVC, Observer, Repository, Singleton"
+      "description": "Een web- en mobiele applicatie die studenten helpt om te zien welke vakken toegankelijk zijn op basis van hun studievoortgang. Gebruikt binnen mijn school.",
+      "techStack": "Technologieën: Java, Spring Boot, React Native, H2",
+      "patterns": "Architectuur: MVC, Reactief, REST"
     },
     "stibRide": {
       "title": "Stib Ride",
-      "description": "JavaFX-applicatie waarmee gebruikers de kortste route tussen twee metrostations in het openbaar vervoersnetwerk van Brussel kunnen vinden.",
-      "techStack": "Gebruikt: Java, JavaFx, Scene Builder, SQLite",
-      "patterns": "Patterns: MVP, Observer, Repository, Dao, Dto"
+      "description": "Een JavaFX-app waarmee je de kortste route vindt tussen twee metrostations in het Brusselse openbaar vervoer. Gebaseerd op grafentheorie.",
+      "techStack": "Technologieën: Java, JavaFX, SQLite",
+      "patterns": "Architectuur: MVP, DAO, DTO"
     },
     "rainbowAttack": {
       "title": "Rainbow Attack",
-      "description": "Ontwikkeld voor mijn cybersecurity cursus. Deze C++ command-line applicatie maakt het mogelijk om een regenboogtabel te genereren en sha256-gehashte wachtwoorden te kraken met behulp van de gegenereerde regenboogtabel.",
-      "techStack": "Gebruikt: C++, Makefile, Bash Script"
+      "description": "Een C++-tool via de command line om rainbow tables te genereren en SHA-256 hashes te kraken. Ontwikkeld in het kader van mijn cursus cybersecurity.",
+      "techStack": "Technologieën: C++, Makefile, Bash"
     },
     "readingEsi": {
-      "title": "Reading Esi",
-      "description": "Reading Esi is een odoo-module die bibliotheekorganisaties helpt bij het opslaan, lenen, kopen en verkopen van boeken",
-      "techStack": "Gebruikt: Odoo, Python",
-      "patterns": "Patterns: MVC"
+      "title": "Reading ESI",
+      "description": "Een Odoo-module ontwikkeld voor een studentenboekhandel om boekverhuur en verkoop te beheren. Mijn eerste ervaring met ERP-aanpassing.",
+      "techStack": "Technologieën: Odoo, Python",
+      "patterns": "Architectuur: MVC"
     },
     "abalone": {
       "title": "Abalone",
-      "description": "Ontwikkeling van het Abalone-spel met C++ en QT Designer, waarbij de principes van OOP worden gevolgd.",
-      "techStack": "Gebruikt: C++, QT Designer",
-      "patterns": "Patterns: MVC, Observer"
+      "description": "Een implementatie van het Abalone-bordspel in C++ met Qt Designer. Focus op architectuur en gebruikerservaring.",
+      "techStack": "Technologieën: C++, Qt Designer",
+      "patterns": "Architectuur: MVC, Observer"
     },
     "game2048": {
       "title": "2048",
-      "description": "Mijn implementatie van het 2048-spel in JavaFX, waarbij de principes van OOP worden gevolgd",
-      "techStack": "Gebruikt: Java, JavaFx",
-      "patterns": "Patterns: MVC, Observer"
+      "description": "Mijn eigen versie van het 2048-spel, gemaakt in JavaFX met een schone en responsieve UI. Een leuke oefening in OOP.",
+      "techStack": "Technologieën: Java, JavaFX",
+      "patterns": "Architectuur: MVC, Observer"
     }
   },
   "contact": {
-    "title": "Neem Contact Op",
+    "title": "Neem contact op",
     "success": "Bedankt voor je bericht!",
     "form": {
       "subject": "Onderwerp",
-      "subjectPlaceholder": "Onderwerp..",
-      "fullName": "Volledige Naam",
-      "fullNamePlaceholder": "Je naam..",
-      "email": "E-mail",
-      "emailPlaceholder": "Je contactgegevens..",
+      "subjectPlaceholder": "Waarover gaat je bericht?",
+      "fullName": "Naam",
+      "fullNamePlaceholder": "Wie ben je?",
+      "email": "E-mailadres",
+      "emailPlaceholder": "Waar kan ik je bereiken?",
       "message": "Bericht",
-      "messagePlaceholder": "Schrijf iets..",
-      "submit": "Versturen"
+      "messagePlaceholder": "Vertel me meer...",
+      "submit": "Verzenden"
     }
   },
   "about": {
     "title": "Over Mij",
-    "description": "Hallo, ik ben Ayoub Lahyaoui, een {{age}} jaar oude Belgische ontwikkelaar.\nIk hou van socialiseren, nieuwe mensen ontmoeten en verschillende culturen ontdekken, wat me ertoe brengt om van reizen te houden.\nIk heb het geluk gehad om verschillende landen te bezoeken en hoop er in de toekomst nog meer te bezoeken.\nAls computer- en technologie-enthousiasteling heb ik een breed scala aan vaardigheden ontwikkeld op verschillende gebieden van informatica, wat me een zeer aanpasbaar persoon maakt.\nIk streef ernaar om al mijn capaciteiten te gebruiken maar ook nieuwe te verwerven om me te helpen mijn werk zo efficiënt mogelijk uit te voeren."
+    "description": "Ik ben Ayoub Lahyaoui, een {{age}}-jarige Belgische Fullstack Developer met een passie voor technologie, design en gebruiksvriendelijke toepassingen. Na mijn bachelordiploma in informatica in Brussel heb ik ervoor gekozen om meteen de praktijk in te duiken. Tijdens mijn stage in Amsterdam bij TomTom werkte ik mee aan een grote mobiele navigatie-app, en kreeg ik voor het eerst de kans om te programmeren in een internationale en agile omgeving.\n\nDaarna werkte ik bijna twee jaar als technisch consultant bij Capgemini, waar ik verantwoordelijk was voor de ontwikkeling van backend- en frontendapplicaties bij klanten in de watersector. Daar leerde ik samenwerken met functionele profielen, communiceren met klanten, werken in microservice-omgevingen, en technische keuzes onderbouwen. Hoewel ik veel leerde, voelde ik de nood om me verder te verdiepen in de kern van softwareontwikkeling.\n\nDaarom besloot ik om terug te keren naar de universiteit om een master in de informatica te volgen, met focus op softwarekwaliteit, UX en productgericht werken. Ik wil mijn technische skills aanscherpen, maar ook mijn creativiteit benutten om slimme, intuïtieve digitale producten te maken die echt iets betekenen voor mensen.\n\nIk werk graag in team, neem mijn verantwoordelijkheid, en heb een sterke aandacht voor detail. Betrouwbaarheid, transparantie en wederzijds respect zijn voor mij vanzelfsprekend. Ik geloof in leren door te doen, en ik geef altijd het beste van mezelf om oplossingen te bouwen die stabiel, mooi én mensgericht zijn."
   },
   "navigation": {
-    "home": "Home",
-    "about": "Over",
+    "home": "Start",
+    "about": "Over Mij",
     "skills": "Vaardigheden",
     "contact": "Contact",
     "openMenu": "Menu openen",
     "closeMenu": "Menu sluiten"
   },
   "footer": {
-    "developedBy": "ontwikkeld door",
+    "developedBy": "ontwikkeld met zorg door",
     "contact": {
-      "subtitle": "... een idee?",
-      "title": "Laten we samen geweldige dingen maken!",
-      "text": "Aarzel niet om contact met me op te nemen via sociale media."
+      "subtitle": "een idee in gedachten?",
+      "title": "Laten we iets moois maken.",
+      "text": "Stuur gerust een bericht via LinkedIn of e-mail   ik hoor graag van je."
     }
   }
-} 
+}
