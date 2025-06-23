@@ -32,7 +32,7 @@ function Introduction() {
           <div className="introduction__image-wrapper">
             <img
               src={homePageImage}
-              alt="Ayoub Lahyaoui's profile picture"
+              alt="Ayoub Lahyaoui's profile"
               className="introduction__image"
             />
           </div>
