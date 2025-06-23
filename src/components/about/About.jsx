@@ -17,7 +17,7 @@ function About() {
           <img
             className="about__image"
             src={aboutImage}
-            alt="Ayoub Lahyaoui's profile picture"
+            alt="Ayoub Lahyaoui's Profile"
           />
         </div>
         <div className="about__content">
