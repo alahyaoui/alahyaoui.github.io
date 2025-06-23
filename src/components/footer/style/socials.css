@@ -48,3 +48,14 @@
 .socials__social-link:hover {
   color: rgba(0, 0, 0, 0.349);
 }
+
+.socials__social-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.socials__social-button:hover {
+  color: rgba(0, 0, 0, 0.349);
+}

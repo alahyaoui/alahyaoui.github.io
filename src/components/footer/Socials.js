@@ -69,15 +69,14 @@ function Socials() {
               </a>
             </li>
             <li className="socials__social-item">
-              <a 
-                href="" 
-                className="socials__social-link"
+              <button 
+                className="socials__social-button"
                 title="Discord - ayoubino#8988" 
                 onClick={handleCopyToClipboard} 
-                target="_self"
+                type="button"
               >
                 <FontAwesomeIcon icon={faDiscord} size="2x" />
-              </a>
+              </button>
             </li>
           </ul>
         </nav>
