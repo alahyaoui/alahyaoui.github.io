@@ -25,7 +25,7 @@ Install dependencies.
 Create a `.env` file in the project root with the following variables:
 
 ```
-FORMSPREE_KEY=your_formspree_form_id_here
+REACT_APP_FORMSPREE_KEY=your_formspree_form_id_here
 ```
 
 You can get your Formspree form ID from [https://formspree.io/forms](https://formspree.io/forms).

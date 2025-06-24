@@ -100,8 +100,9 @@
   "contact": {
     "title": "Get In Touch",
     "success": "Thanks for reaching out!",
-    "error": "An error occurred while sending the message. Please try again.",
-    "form": {
+  "error": "An error occurred while sending the message. Please try again.",
+  "disabled": "Contact form disabled because configuration is missing.",
+  "form": {
       "subject": "Subject",
       "subjectPlaceholder": "Subject of your message...",
       "fullName": "Your Name",
