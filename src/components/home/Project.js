@@ -1,14 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './style/project.css';
-import tomtomAmigoImage from './assets/img/tomtom_amigo.png';
-import escooterFinderImage from './assets/img/escooter_finder.png';
-import rainbowAttackImage from './assets/img/rainbow-attack.jpeg';
-import curriculumSimulatorImage from './assets/img/curriculum-simulator.jpeg';
-import stibRideImage from './assets/img/stibride.jpeg';
-import esiReadingImage from './assets/img/esi_reading.jpeg';
-import abaloneImage from './assets/img/abalone.jpeg';
-import game2048Image from './assets/img/2048.jpeg';
+import tomtomAmigoImage from './assets/img/tomtom_amigo.webp';
+import escooterFinderImage from './assets/img/escooter_finder.webp';
+import rainbowAttackImage from './assets/img/rainbow-attack.webp';
+import curriculumSimulatorImage from './assets/img/curriculum-simulator.webp';
+import stibRideImage from './assets/img/stibride.webp';
+import esiReadingImage from './assets/img/esi_reading.webp';
+import abaloneImage from './assets/img/abalone.webp';
+import game2048Image from './assets/img/2048.webp';
 import FadeInSection from '../fade/FadeInSections';
 import { PROJECT_LINKS } from '../../constants';
 

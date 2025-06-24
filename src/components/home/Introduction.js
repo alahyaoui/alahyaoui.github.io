@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './style/introduction.css'
-import homePageImage from './assets/img/home_page.jpeg';
+import homePageImage from './assets/img/home_page.webp';
 import Chip from '@mui/material/Chip';
 
 function Introduction() {

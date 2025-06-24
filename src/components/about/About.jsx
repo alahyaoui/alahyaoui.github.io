@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
 import "./style/about.css"
-import aboutImage from './assets/img/about_page.jpeg';
+import aboutImage from './assets/img/about_page.webp';
 import { PROFILE } from '../../constants';
 import { getAge } from '../../utils'
 
