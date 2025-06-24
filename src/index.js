@@ -1,50 +1,23 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import './index.css';
+import App from "./App";
+import './i18n';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import {
-  Navigation,
-  LanguageSwitcher,
-  Footer,
-  Home,
-  About,
-  ContactForm,
-  Skill,
-} from "./components";
-import './i18n'; // Import i18n configuration
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
-  <Router>
-    <div className="page">
-    <header>
-      <div className="header__placeholder"></div>
-      <Navigation />
-      <LanguageSwitcher />
-    </header>
-    <main>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skill />} />
-        <Route path="/contact" element={<ContactForm />} />
-      </Routes>
-    </main>
-    <footer>
-      <Footer />
-    </footer>
-    </div>
-  </Router>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://cra.link/PWA
-serviceWorkerRegistration.register();
+serviceWorkerRegistration.unregister();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
