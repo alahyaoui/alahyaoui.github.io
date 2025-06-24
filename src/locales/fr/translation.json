@@ -100,8 +100,9 @@
   "contact": {
     "title": "Me contacter",
     "success": "Merci pour votre message !",
-    "error": "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer.",
-    "form": {
+  "error": "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer.",
+  "disabled": "Formulaire de contact désactivé : configuration manquante.",
+  "form": {
       "subject": "Sujet",
       "subjectPlaceholder": "Sujet de votre message...",
       "fullName": "Nom complet",

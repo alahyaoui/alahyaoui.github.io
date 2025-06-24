@@ -100,8 +100,9 @@
   "contact": {
     "title": "Neem contact op",
     "success": "Bedankt voor je bericht!",
-    "error": "Er is een fout opgetreden bij het verzenden van het bericht. Probeer het opnieuw.",
-    "form": {
+  "error": "Er is een fout opgetreden bij het verzenden van het bericht. Probeer het opnieuw.",
+  "disabled": "Contactformulier uitgeschakeld wegens ontbrekende configuratie.",
+  "form": {
       "subject": "Onderwerp",
       "subjectPlaceholder": "Waarover gaat je bericht?",
       "fullName": "Naam",

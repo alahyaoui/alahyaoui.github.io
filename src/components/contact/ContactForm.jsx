@@ -8,7 +8,20 @@ import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
     const { t } = useTranslation();
-    const [state, handleSubmit] = useForm(process.env.REACT_APP_FORMSPREE_KEY);
+    const formspreeKey = process.env.REACT_APP_FORMSPREE_KEY;
+
+    if (!formspreeKey) {
+        console.error('REACT_APP_FORMSPREE_KEY is not set');
+        return (
+            <section className="contact" id="contact">
+                <div className="contact__container">
+                    <h2 className="contact__title contact__title--error">{t('contact.disabled')}</h2>
+                </div>
+            </section>
+        );
+    }
+
+    const [state, handleSubmit] = useForm(formspreeKey);
 
     if (state.succeeded) {
         return (
