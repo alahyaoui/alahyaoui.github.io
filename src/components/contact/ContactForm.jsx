@@ -6,21 +6,9 @@ import { Button } from '@mui/material';
 import "./style/contact.css"
 import { useTranslation } from 'react-i18next';
 
-const ContactForm = () => {
+// Separate component that uses the hook
+const FormContent = ({ formspreeKey }) => {
     const { t } = useTranslation();
-    const formspreeKey = process.env.REACT_APP_FORMSPREE_KEY;
-
-    if (!formspreeKey) {
-        console.error('REACT_APP_FORMSPREE_KEY is not set');
-        return (
-            <section className="contact" id="contact">
-                <div className="contact__container">
-                    <h2 className="contact__title contact__title--error">{t('contact.disabled')}</h2>
-                </div>
-            </section>
-        );
-    }
-
     const [state, handleSubmit] = useForm(formspreeKey);
 
     if (state.succeeded) {
@@ -33,7 +21,7 @@ const ContactForm = () => {
         );
     }
 
-    if (state.errors.length > 0) {
+    if (state.errors?.length > 0) {
         return (
             <section className="contact" id="contact">
                 <div className="contact__container">
@@ -112,6 +100,26 @@ const ContactForm = () => {
             </div>
         </section>
     );
+};
+
+const ContactForm = () => {
+    const { t } = useTranslation();
+    const formspreeKey = process.env.REACT_APP_FORMSPREE_KEY;
+
+    // Handle the case where formspreeKey is not set
+    if (!formspreeKey) {
+        console.error('REACT_APP_FORMSPREE_KEY is not set');
+        return (
+            <section className="contact" id="contact">
+                <div className="contact__container">
+                    <h2 className="contact__title contact__title--error">{t('contact.disabled')}</h2>
+                </div>
+            </section>
+        );
+    }
+
+    // Render the form content when we have a valid key
+    return <FormContent formspreeKey={formspreeKey} />;
 }
 
 export default ContactForm;
